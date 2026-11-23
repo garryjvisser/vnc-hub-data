@@ -1,0 +1,2703 @@
+[
+  {
+    "hash": "8c8401005d19fba0",
+    "title": "Canadian Hydrogen and Fuel Cell Association (CHFCA)",
+    "url": "https://canadah2.ca/",
+    "source": "Canadian Hydrogen Association",
+    "jurisdiction": "Federal",
+    "published_at": "2024-01-01",
+    "excerpt": "The CHFCA (now the Canadian Hydrogen Association) is the national industry association representing hydrogen and fuel cell companies in Canada. It coordinates advocacy, policy input, and sector development across all provinces, with strong presences in BC, Alberta, and Quebec.",
+    "categories": [
+      "hydrogen"
+    ],
+    "keywords_matched": [],
+    "score": 80,
+    "tier": 4,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "Any Western Canadian oil & gas operator considering hydrogen production \u2014 blue, green, or turquoise \u2014 should engage with the CHFCA early. The association shapes the regulatory conversation and often gets advance visibility on policy direction. It's the single best industry starting point for hydrogen strategy work.",
+    "is_update": false
+  },
+  {
+    "hash": "5e0def2607ebdc5d",
+    "title": "Hydrogen Strategy for Canada \u2014 federal framework (2020)",
+    "url": "https://natural-resources.canada.ca/energy-sources/clean-fuels/hydrogen-strategy",
+    "source": "Natural Resources Canada",
+    "jurisdiction": "Federal",
+    "published_at": "2020-12-16",
+    "excerpt": "Natural Resources Canada released the Hydrogen Strategy for Canada in December 2020, setting out a 30-year framework for positioning Canada as a top-three global producer of clean hydrogen. The strategy identifies five regional hub opportunities, including Alberta's industrial heartland.",
+    "categories": [
+      "hydrogen",
+      "carbon_climate"
+    ],
+    "keywords_matched": [],
+    "score": 78,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "Federal hydrogen policy flows downstream into provincial incentives, offtake agreements, and capital allocation. If you're considering a blue hydrogen project (natural gas + CCUS), understand how the federal strategy frames it \u2014 it's generally supportive of all low-carbon pathways, not just green.",
+    "is_update": false
+  },
+  {
+    "hash": "550c44df847bc1d3",
+    "title": "BC Hydrogen Strategy",
+    "url": "https://www2.gov.bc.ca/gov/content/industry/electricity-alternative-energy/transportation-energies/hydrogen",
+    "source": "Government of British Columbia",
+    "jurisdiction": "British Columbia",
+    "published_at": "2021-07-01",
+    "excerpt": "BC's Hydrogen Strategy establishes a 30-year framework for positioning the province as a leading producer and exporter of clean hydrogen. It emphasizes production from renewable electricity, hydrogen export via the Pacific, and integration into transportation and industrial decarbonization.",
+    "categories": [
+      "hydrogen",
+      "carbon_climate"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "BC's hydrogen focus is export-oriented and green-hydrogen-weighted. If you're an upstream operator thinking about diversification in BC, the opportunities are more likely in hydrogen distribution and export infrastructure than in production itself, which tilts toward electrolysis-based projects.",
+    "is_update": false
+  },
+  {
+    "hash": "5cad5fcb585d1f43",
+    "title": "Alberta Hydrogen Roadmap",
+    "url": "https://www.alberta.ca/hydrogen-roadmap",
+    "source": "Government of Alberta",
+    "jurisdiction": "Alberta",
+    "published_at": "2021-11-01",
+    "excerpt": "Alberta's Hydrogen Roadmap outlines the province's strategy to leverage existing oil & gas infrastructure, CCUS capacity, and the Industrial Heartland to become a major clean hydrogen producer and exporter. Air Products' Edmonton facility was an early anchor project.",
+    "categories": [
+      "hydrogen",
+      "carbon_climate"
+    ],
+    "keywords_matched": [],
+    "score": 80,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "Alberta's hydrogen play is fundamentally blue hydrogen + CCUS \u2014 using cheap natural gas feedstock with carbon capture. This is the Western Canadian oil & gas industry's natural adjacent opportunity. If you have upstream gas production and proximity to CCUS infrastructure, this is worth strategic exploration.",
+    "is_update": false
+  },
+  {
+    "hash": "c44af1b928ffb282",
+    "title": "Alberta Data Centres \u2014 province's AI infrastructure strategy",
+    "url": "https://www.alberta.ca/datacentres",
+    "source": "Government of Alberta",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-09-01",
+    "excerpt": "Alberta launched a dedicated AI/data centre attraction strategy in 2026, positioning the province as North America's premier hyperscale AI compute location. Key enablers: abundant natural gas for behind-the-meter generation, cold climate for cooling, and a streamlined permitting approach.",
+    "categories": [
+      "data_centers",
+      "power_electricity",
+      "gas"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "Data centre buildout is the fastest-growing new load on Alberta's grid. For upstream gas producers, this is a demand story \u2014 hyperscale data centres consume enormous quantities of behind-the-meter natural gas. For service companies, it's an infrastructure buildout opportunity. Watch AESO's large-load interconnection queue.",
+    "is_update": false
+  },
+  {
+    "hash": "f7d7ca0304c72c46",
+    "title": "Alberta Bring-Your-Own-Generation (BYOG) policy for large loads",
+    "url": "https://thelogic.co/news/alberta-byog-large-load-plan/",
+    "source": "The Logic / AESO",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-07-01",
+    "excerpt": "Alberta's Bring-Your-Own-Generation (BYOG) framework allows large loads (data centres, industrial facilities) to build their own power generation on-site rather than relying on grid interconnection. Removes bottlenecks caused by AESO's interconnection queue.",
+    "categories": [
+      "data_centers",
+      "power_electricity",
+      "regulatory",
+      "gas"
+    ],
+    "keywords_matched": [],
+    "score": 82,
+    "tier": 2,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "BYOG is the enabling policy that makes Alberta data centre development practical at scale. For upstream gas producers, every new BYOG-powered data centre is a long-term gas offtake contract. We're helping clients evaluate whether their gas assets are positioned to supply this emerging demand class.",
+    "is_update": false
+  },
+  {
+    "hash": "352acab441227d6b",
+    "title": "Alberta data centres may raise natural gas demand by 31%",
+    "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2856629-data-centers-may-raise-alberta-gas-demand-by-31pc",
+    "source": "Argus Media",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-09-15",
+    "excerpt": "Argus analysis projects that proposed and announced data centre projects in Alberta could increase provincial natural gas demand by up to 31% if all projects proceed. This represents one of the largest new natural gas demand sources since the oil sands expansion era.",
+    "categories": [
+      "data_centers",
+      "gas"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 2,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "31% demand uplift is a generational shift in the Alberta natural gas market. If you're a Montney or Deep Basin producer, your 5-year production planning should factor in materially stronger domestic demand pulling on gas supply that would otherwise have been exported. Netback improvement is directionally very supportive.",
+    "is_update": false
+  },
+  {
+    "hash": "81a7b83642b63ae2",
+    "title": "Pembina Institute: 'Footing the Bill' \u2014 data centre electricity cost allocation",
+    "url": "https://www.pembina.org/sites/default/files/2026-08/Footing_the_Bill_Pembina_Institute_Technical_Backgrounder_2026.pdf",
+    "source": "Pembina Institute",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-08-01",
+    "excerpt": "Pembina's 'Footing the Bill' technical backgrounder analyses who pays for the grid infrastructure required to serve hyperscale data centre loads. Raises concerns about ratepayer cross-subsidization if data centre loads don't cover their full cost of transmission and distribution capacity.",
+    "categories": [
+      "data_centers",
+      "power_electricity"
+    ],
+    "keywords_matched": [],
+    "score": 72,
+    "tier": 4,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "This is the policy debate that will shape Alberta's data centre regulatory framework over the next 2-3 years. Operators planning data-centre-adjacent gas supply contracts should watch for changes in large-load tariff structures that could reshape project economics.",
+    "is_update": false
+  },
+  {
+    "hash": "5a523d244da20f4d",
+    "title": "Alberta Surface Rights Board \u2014 right of entry orders overview",
+    "url": "https://www.alberta.ca/surface-right-of-entry-overview",
+    "source": "Government of Alberta \u2014 Surface Rights Board",
+    "jurisdiction": "Alberta",
+    "published_at": "2024-01-01",
+    "excerpt": "The Alberta Surface Rights Board is a quasi-judicial tribunal that resolves disputes between energy operators and landowners when voluntary surface lease agreements cannot be reached. Operators can apply for right of entry orders to access land for drilling, pipelines, or facilities.",
+    "categories": [
+      "land_management",
+      "regulatory",
+      "oil",
+      "gas"
+    ],
+    "keywords_matched": [],
+    "score": 80,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "Right of entry is a last resort \u2014 it works but it damages the operator-landowner relationship and often increases long-term costs through higher compensation awards. Invest in genuine landowner relationships early; the Surface Rights Board should be your backstop, not your primary strategy.",
+    "is_update": false
+  },
+  {
+    "hash": "1bfc5c52d9864f57",
+    "title": "Alberta surface lease rentals and landowner compensation framework",
+    "url": "https://wellwiki-prod.cloud.arc.gwu.edu/wiki/Alberta_Landowners_Guide,_Compensation_for_Wells,_Facilities_and_Pipelines",
+    "source": "Pembina Landowners Guide / Alberta",
+    "jurisdiction": "Alberta",
+    "published_at": "2025-10-01",
+    "excerpt": "Alberta's surface lease framework governs how operators compensate landowners for the use of their land for wells, facilities, and pipelines. Annual rental amounts, review periods, and conditions are regulated by the Surface Rights Act.",
+    "categories": [
+      "land_management",
+      "oil",
+      "gas",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "Surface lease obligations persist for the life of the asset and beyond into reclamation. Operators sometimes let annual rentals lapse during financial stress \u2014 this creates landowner complaints, Surface Rights Board applications, and eventually an AER compliance file. Keep rentals current even in tight years.",
+    "is_update": false
+  },
+  {
+    "hash": "04adb560c6dcc66b",
+    "title": "Alberta Landowners Guide (Pembina Institute)",
+    "url": "https://www.pembina.org/pub/landowners-guide",
+    "source": "Pembina Institute",
+    "jurisdiction": "Alberta",
+    "published_at": "2025-10-01",
+    "excerpt": "Pembina's Landowners Guide is the comprehensive plain-language reference for rural Alberta landowners dealing with oil and gas operations. Covers surface rights, compensation, abandonment, reclamation, remediation, and dispute resolution.",
+    "categories": [
+      "land_management",
+      "environmental",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 72,
+    "tier": 4,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "This is what your landowners are reading. Operators should read it too \u2014 it tells you exactly what questions and expectations landowners will bring to the table. An informed operator negotiating with an informed landowner is where sustainable surface agreements come from.",
+    "is_update": false
+  },
+  {
+    "hash": "e14012ea2b60cc09",
+    "title": "First Nations consultation duty \u2014 Crown-Indigenous relations in energy projects",
+    "url": "https://www.rcaanc-cirnac.gc.ca/eng/1100100014597/1611938321373",
+    "source": "Crown-Indigenous Relations and Northern Affairs Canada",
+    "jurisdiction": "Federal",
+    "published_at": "2024-01-01",
+    "excerpt": "The Crown's constitutional duty to consult and accommodate Indigenous peoples applies whenever regulatory decisions may adversely affect Aboriginal or Treaty rights. Energy project approvals (pipeline certificates, well licences, facility permits) frequently trigger consultation obligations that are delegated to operators as part of the regulatory application process.",
+    "categories": [
+      "land_management",
+      "regulatory",
+      "pipeline"
+    ],
+    "keywords_matched": [],
+    "score": 78,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "Indigenous consultation is non-negotiable and non-delegable in substance \u2014 even where regulatory agencies delegate the procedural work. Operators who treat consultation as a checkbox exercise are the ones whose projects get challenged in court. Treat it as a substantive relationship-building obligation, because it is.",
+    "is_update": false
+  },
+  {
+    "hash": "4d2f9af388f4dfb1",
+    "title": "AER Directive 071: Emergency Preparedness and Response",
+    "url": "https://static.aer.ca/prd/documents/directives/Directive071.pdf",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2025-12-01",
+    "excerpt": "Directive 071 sets Alberta's emergency preparedness and response requirements for upstream oil and gas operations. Covers emergency response plans (ERPs), public protection, hazard identification, and incident reporting. Updated with major revisions in late 2025.",
+    "categories": [
+      "emergency_response",
+      "regulatory",
+      "oil",
+      "gas"
+    ],
+    "keywords_matched": [],
+    "score": 90,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "The 2025 Directive 071 update tightened ERP registration requirements and expanded public protection zones for sour gas operations. If your ERP registration is more than 18 months old, review it against the new edition \u2014 there's a reasonable chance something in it no longer aligns.",
+    "is_update": true
+  },
+  {
+    "hash": "63dcb444b889af3a",
+    "title": "AER Manual 026: Emergency Preparedness Program",
+    "url": "https://static.aer.ca/prd/documents/manuals/Manual026.pdf",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2025-12-01",
+    "excerpt": "Manual 026 supports Directive 071 by providing guidance on how to develop, implement, and maintain emergency preparedness programs. It's the practical companion that turns the directive's requirements into field-executable workflows.",
+    "categories": [
+      "emergency_response",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 82,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "Manual 026 is where the real work happens. Many operators have Directive 071-compliant paperwork but Manual 026-deficient actual programs. The two need to match on paper AND in practice \u2014 field crews need to know the ERP, drills need to be real, and documentation needs to prove it.",
+    "is_update": false
+  },
+  {
+    "hash": "b83fa3188f514151",
+    "title": "AER Bulletin 2024-20: Emergency Response Plan amendments",
+    "url": "https://static.aer.ca/prd/documents/bulletins/Bulletin-2024-20.pdf",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2024-09-01",
+    "excerpt": "AER Bulletin 2024-20 announced changes to ERP amendment and renewal requirements, affecting how operators manage ongoing ERP maintenance across their asset portfolios.",
+    "categories": [
+      "emergency_response",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 78,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "ERP amendments are more common than operators realize \u2014 crew changes, contact updates, new wells added to an area. Falling behind on amendment filings creates a cumulative compliance exposure. Build ERP maintenance into quarterly operations reviews.",
+    "is_update": true
+  },
+  {
+    "hash": "241da98e6d564e77",
+    "title": "BCER emergency response and incident reporting requirements",
+    "url": "https://www.bc-er.ca/health-safety-environment/emergency-response/",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2024-01-01",
+    "excerpt": "BCER's emergency response framework requires operators to maintain emergency response plans tailored to specific hazard scenarios (well blowouts, pipeline ruptures, sour gas releases). Incident reporting timelines are strict and automated via the CMIS platform.",
+    "categories": [
+      "emergency_response",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 78,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "BC's incident reporting workflow is tighter than Alberta's. Automated CMIS notifications create a record the moment an incident starts, giving operators little room to triage before the regulatory clock starts. Field supervisors need pre-built incident categorization protocols to respond quickly and correctly.",
+    "is_update": false
+  },
+  {
+    "hash": "632c615cd2ad1f75",
+    "title": "BC Occupational Health and Safety Regulation (BC Reg 296/97)",
+    "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/296_97_00_multi",
+    "source": "Government of British Columbia / WorkSafeBC",
+    "jurisdiction": "British Columbia",
+    "published_at": "2023-01-01",
+    "excerpt": "BC Reg 296/97 is the Occupational Health and Safety Regulation governing workplace safety in British Columbia. It establishes industry-agnostic requirements plus industry-specific provisions, including for oil and gas operations.",
+    "categories": [
+      "safety",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 78,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "BC Reg 296/97 is foundational \u2014 every BC workplace is governed by it. For oil and gas operators, the general provisions interact with industry-specific additions. Make sure your BC SMS references the regulation directly rather than assuming WorkSafeBC bulletins cover everything.",
+    "is_update": false
+  },
+  {
+    "hash": "c5222f93bbc4f48f",
+    "title": "WorkSafe Saskatchewan \u2014 Saskatchewan Workers' Compensation Board",
+    "url": "https://www.worksafesask.ca/",
+    "source": "Saskatchewan Workers' Compensation Board",
+    "jurisdiction": "Saskatchewan",
+    "published_at": "2024-01-01",
+    "excerpt": "Saskatchewan's Workers' Compensation Board oversees workplace health and safety in the province, administering the Workers' Compensation Act and the Saskatchewan Employment Act's OHS provisions. Operators pay premiums and are subject to inspection and investigation.",
+    "categories": [
+      "safety",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 78,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "Saskatchewan's WCB operates differently from Alberta's WCB or WorkSafeBC. Premium calculations, incident reporting timelines, and workplace inspection authority are all SK-specific. Operators active across jurisdictions need separate SK-specific safety management protocols, not a copy-paste from their AB program.",
+    "is_update": false
+  },
+  {
+    "hash": "bdd0f8f1d941a4c2",
+    "title": "CSA Z662 \u2014 Oil and Gas Pipeline Systems standard",
+    "url": "https://www.csagroup.org/store/product/2430394/",
+    "source": "CSA Group",
+    "jurisdiction": "Federal (National Standard)",
+    "published_at": "2023-01-01",
+    "excerpt": "CSA Z662 is the Canadian national standard for the design, construction, operation, maintenance, and abandonment of oil and gas pipeline systems. Referenced in AER Directive 077, BCER regulations, CER standards, and Saskatchewan directives. Every pipeline operator in Canada must comply.",
+    "categories": [
+      "safety",
+      "pipeline",
+      "regulatory",
+      "oil",
+      "gas"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "CSA Z662 is the technical backbone of Canadian pipeline compliance \u2014 if a provincial or federal regulator references pipeline integrity, measurement, or construction standards, Z662 is behind it. Operators should maintain current editions of Z662 as a reference document and have integrity personnel actively trained on updates.",
+    "is_update": false
+  },
+  {
+    "hash": "e3c7a07c6e681e22",
+    "title": "CSA Z276 \u2014 Liquefied Natural Gas (LNG) Production, Storage, and Handling",
+    "url": "https://www.csagroup.org/store/product/2431477/",
+    "source": "CSA Group",
+    "jurisdiction": "Federal (National Standard)",
+    "published_at": "2023-01-01",
+    "excerpt": "CSA Z276 is the Canadian national standard for the design, construction, and operation of LNG production, storage, and handling facilities. Applies to LNG export terminals, small-scale LNG, and LNG transportation infrastructure.",
+    "categories": [
+      "safety",
+      "gas",
+      "pipeline",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 72,
+    "tier": 1,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "As LNG export infrastructure grows in BC, Z276 compliance becomes increasingly important for operators adjacent to or feeding the LNG value chain. Even upstream gas producers should understand how downstream LNG facility standards affect specification requirements for their product.",
+    "is_update": false
+  },
+  {
+    "hash": "2edfc259a67b0930",
+    "title": "Major Western Canadian oil & gas M&A tracker \u2014 2026+",
+    "url": "https://boereport.com/category/ma/",
+    "source": "BOE Report / Industry sources",
+    "jurisdiction": "Alberta / BC / Saskatchewan",
+    "published_at": "2026-01-01",
+    "excerpt": "Tracker page for major upstream and midstream acquisitions, divestitures, and mergers in the Western Canadian Sedimentary Basin from 2026 onward. Reference point for current M&A activity shaping the industry landscape.",
+    "categories": [
+      "acquisitions_md",
+      "oil",
+      "gas"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 3,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "Industry concentration continues in Western Canada. Every major M&A shifts the operator landscape \u2014 who you compete with for services, who your neighbouring operators are, and where the industry's LLR exposure is pooling. Track these transactions actively; they have direct compliance implications.",
+    "is_update": false
+  },
+  {
+    "hash": "217e8aa960effc65",
+    "title": "CNRL acquires Chevron Canada oil sands interests (2024)",
+    "url": "https://www.cnrl.com/corporate-responsibility/news-releases/",
+    "source": "Canadian Natural Resources Limited",
+    "jurisdiction": "Alberta",
+    "published_at": "2024-06-01",
+    "excerpt": "CNRL's 2024 acquisition of Chevron's remaining Canadian oil sands assets consolidated the operator's position as the dominant producer at the Athabasca Oil Sands Project (AOSP). The transaction continued the long-term trend of consolidation among Canadian oil sands operators.",
+    "categories": [
+      "acquisitions_md",
+      "oil",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 72,
+    "tier": 2,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "Oil sands consolidation reduces the number of operators but concentrates liability. The remaining majors are disproportionately exposed to industry-wide events \u2014 environmental incidents, policy shifts, carbon pricing changes. For smaller operators, a few mega-players failing simultaneously would reshape the whole industry.",
+    "is_update": false
+  },
+  {
+    "hash": "22f86d093b331222",
+    "title": "Tourmaline Oil consolidation \u2014 Montney and Deep Basin acquisitions",
+    "url": "https://www.tourmalineoil.com/",
+    "source": "Tourmaline Oil Corp",
+    "jurisdiction": "Alberta / British Columbia",
+    "published_at": "2025-01-01",
+    "excerpt": "Tourmaline Oil has executed a long-running consolidation strategy in the Montney and Deep Basin plays, acquiring multiple junior and intermediate producers to become Canada's largest natural gas producer. The strategy demonstrates the scale-advantage economics of dry gas production.",
+    "categories": [
+      "acquisitions_md",
+      "gas"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 2,
+    "added_at": "2026-11-20T17:36:13.874953+00:00",
+    "approved": true,
+    "vn_commentary": "Tourmaline's growth-through-acquisition playbook is a case study in how scale advantages compound in gas production. For junior operators, this creates both an exit opportunity and a competitive pressure. Understand how your assets fit into the consolidator-logic of the industry's current M&A cycle.",
+    "is_update": false
+  },
+  {
+    "hash": "e94222a8a28a8b3f",
+    "title": "AER Directive 088: Licensee Life-Cycle Management \u2014 in force since Dec 2021",
+    "url": "https://static.aer.ca/prd/documents/directives/Directive088.pdf",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2021-12-01",
+    "excerpt": "Directive 088 established Alberta's integrated licensee life-cycle management framework. It replaced the old LLR-only approach with a broader assessment that includes operational performance, capability, compliance history, and remaining asset life. Every AB operator is scored and categorized; weak ratings trigger escalating intervention from the AER.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 95,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "This is THE framework every Alberta operator should understand in detail. If your LCA score trends downward over consecutive quarters, you're on a path to intervention \u2014 and the AER's remedies include refusing license transfers, requiring security deposits, and ultimately refusing new drilling applications. We help operators reverse negative LCA trends before they trigger regulatory action.",
+    "is_update": false
+  },
+  {
+    "hash": "b9277ed7950621cd",
+    "title": "AER Directive 076: Enhanced Production Audit Program (EPAP)",
+    "url": "https://static.aer.ca/prd/documents/directives/Directive076.pdf",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2020-01-15",
+    "excerpt": "EPAP is Alberta's annual audit regime requiring operators to self-declare conformance with measurement, accounting, and reporting requirements. Non-conforming facilities trigger escalating compliance consequences. Operators must file a yearly EPAP declaration covering all applicable facilities.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 92,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "EPAP is one of the most scrutinized annual filings in Alberta and a frequent source of AER follow-up inspections. Deficiencies in measurement, data integrity, or reconciliation between field and reported volumes trigger non-conformance findings that stay on your record. We prepare operators pre-filing and manage the response strategy when the AER flags discrepancies.",
+    "is_update": false
+  },
+  {
+    "hash": "49bf83d3ba7369b5",
+    "title": "AER Directive 067: Eligibility Requirements for Acquiring and Holding Energy Licences",
+    "url": "https://static.aer.ca/prd/documents/directives/Directive067.pdf",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2023-03-01",
+    "excerpt": "Directive 067 governs who can hold or acquire AER energy licences. The 2023 edition tightened financial disclosure requirements, expanded beneficial ownership transparency, and gave the AER broader discretion to refuse licence transfers from operators with weak financial capacity or compliance histories.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 90,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "If you're planning an acquisition, Directive 067 is the first hurdle \u2014 and the one most A&D deals underestimate. We've seen deals fall apart at the transfer stage because the acquirer's Directive 067 profile wasn't pre-cleared. Get the compliance picture right before you sign the PSA, not after.",
+    "is_update": false
+  },
+  {
+    "hash": "b38ca473f6557ee4",
+    "title": "AER Directive 077: Pipelines \u2014 construction, operation, and integrity management",
+    "url": "https://static.aer.ca/prd/documents/directives/Directive077.pdf",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2023-06-01",
+    "excerpt": "Directive 077 is Alberta's comprehensive pipeline regulation covering licensing, construction, operation, integrity management, and discontinuation. Recent amendments strengthened integrity program requirements, incident reporting timelines, and operations/maintenance manual expectations.",
+    "categories": [
+      "pipeline",
+      "regulatory",
+      "environmental"
+    ],
+    "keywords_matched": [],
+    "score": 88,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Directive 077's integrity management requirements are where most pipeline operators get tripped up \u2014 not in normal operations, but in documentation and audit-ready records. If your OMS manual, dig program, and incident reporting workflow aren't under one system, you have a gap. We've helped operators consolidate multi-asset pipeline compliance into a single defensible program.",
+    "is_update": true
+  },
+  {
+    "hash": "c1e85cc9c5922cba",
+    "title": "AER Manual 013: Compliance and Enforcement Program (replaced Directive 019)",
+    "url": "https://www.aer.ca/regulations-and-compliance-enforcement/compliance-and-enforcement-program",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2019-01-01",
+    "excerpt": "Manual 013 is the AER's current enforcement framework (replacing the rescinded Directive 019). It establishes the risk-based inspection regime, non-compliance categorization (A/B/C), escalating enforcement ladder, and administrative penalty structure. Every operator should understand where they sit on the enforcement ladder.",
+    "categories": [
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Most operators only learn how Manual 013 works when they get their first non-compliance notice. Smarter operators treat it as a playbook \u2014 understanding the escalation sequence lets you respond to a Category C finding correctly so it doesn't become a Category B follow-up. Knowing the rules in advance is a competitive advantage.",
+    "is_update": false
+  },
+  {
+    "hash": "d967d567a7478244",
+    "title": "AER Directive 056: Energy Development Applications and Schedules",
+    "url": "https://www.aer.ca/regulating-development/rules-and-directives/directives/directive-056",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2022-05-01",
+    "excerpt": "Directive 056 governs well and facility licence applications in Alberta. It specifies what must be filed, required consultation with directly affected parties, environmental and First Nations considerations, and the approval workflow through OneStop.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "environmental"
+    ],
+    "keywords_matched": [],
+    "score": 80,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Directive 056 applications are the front door to any new drilling or facility project in Alberta. Common failure points: inadequate participant involvement, missing environmental screening, and improper setback calculations. We handle these applications end-to-end for operators who'd rather not learn the OneStop application portal from scratch.",
+    "is_update": false
+  },
+  {
+    "hash": "3b9b41f6eb04f859",
+    "title": "AER Directive 020: Well Abandonment",
+    "url": "https://www.aer.ca/regulating-development/rules-and-directives/directives/directive-020",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2022-01-01",
+    "excerpt": "Directive 020 specifies well abandonment requirements including cut-and-cap standards, downhole plug configurations, surface casing vent flow testing, and documentation. Non-conforming abandonments trigger re-abandonment orders and remain on the operator's compliance record.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "environmental",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Abandonment done wrong costs 3-5x to redo. Most issues we see: insufficient plug overlaps, inadequate SCVF testing documentation, and surface reclamation steps missed. If you're using multiple field contractors, standardize the abandonment procedure and QA checklist across all of them \u2014 inconsistent abandonment quality is a common AER audit finding.",
+    "is_update": false
+  },
+  {
+    "hash": "868f479964e8c242",
+    "title": "AER Directive 017: Measurement Requirements for Oil and Gas Operations",
+    "url": "https://www.aer.ca/regulating-development/rules-and-directives/directives/directive-017",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2023-09-01",
+    "excerpt": "Directive 017 sets measurement, accounting, and reporting requirements for oil, gas, and water volumes from upstream operations. Accurate measurement is the foundation of royalty assessment, EPAP compliance, and Petrinex reporting integrity.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 82,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Measurement errors cascade into royalty disputes, EPAP non-conformances, and corrected Petrinex filings years later. Most 'measurement issues' are actually documentation issues \u2014 your meters are fine, but the proving records, calibration certificates, and transfer custody documentation aren't audit-ready. Clean this up proactively.",
+    "is_update": false
+  },
+  {
+    "hash": "4b11c48c435c9315",
+    "title": "AER Directive 013: Suspension Requirements for Wells",
+    "url": "https://www.aer.ca/regulating-development/rules-and-directives/directives/directive-013",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2020-01-01",
+    "excerpt": "Directive 013 governs the process for suspending inactive wells, including surface and downhole requirements, inspection frequencies, and the eventual timeline to full abandonment. Suspended wells remain on the operator's LLR and LCA exposure.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 78,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "A suspended well is not a free pass \u2014 it still counts in your LCA, carries ongoing inspection obligations, and ultimately must be abandoned. We help operators build a disposition roadmap: which wells to return to production, which to abandon now to improve LCA, and which can economically sit suspended under current rules.",
+    "is_update": false
+  },
+  {
+    "hash": "17e380b4123a53bf",
+    "title": "AER Directive 033: Interim Reclamation Criteria for Wellsites and Associated Facilities",
+    "url": "https://www.aer.ca/regulating-development/rules-and-directives/directives/directive-033",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2021-06-01",
+    "excerpt": "Directive 033 sets interim reclamation standards for wellsites, providing a framework for interim reclamation activities while a site is still in use or awaiting final reclamation. It bridges the gap between operations and final reclamation certificate.",
+    "categories": [
+      "environmental",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Interim reclamation done well reduces your final reclamation cost and improves your LCA. Done poorly, it creates compliance exposure and extends the path to a reclamation certificate. This is one of the highest-ROI investments mid-life operators can make.",
+    "is_update": false
+  },
+  {
+    "hash": "18efe1a53d7846e0",
+    "title": "AER Liability Management Performance Report 2024",
+    "url": "https://static.aer.ca/prd/documents/reports/liability-management/LMPerformance-Report-2024.pdf",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2024-06-01",
+    "excerpt": "Annual report tracking industry-wide liability management performance including LLR distributions, LCA score trends, inactive well counts, closure quota performance, and orphan well growth. Essential baseline data for every Alberta operator.",
+    "categories": [
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 82,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Operators who track their own metrics against the industry-wide distributions in this report always know where they stand. If your LLR is in the bottom third of your peer group, that's actionable intelligence \u2014 before the AER makes it an issue. Review this report annually; use it to set internal improvement targets.",
+    "is_update": false
+  },
+  {
+    "hash": "f311c21b5554c40e",
+    "title": "AER Bulletin 2025-13: Industry Orphan Well Levy",
+    "url": "https://static.aer.ca/prd/documents/bulletins/Bulletin-2025-13.pdf",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2025-04-15",
+    "excerpt": "AER Bulletin 2025-13 announced the industry orphan well levy for fiscal 2025-26, continuing the funding mechanism for the Orphan Well Association. The levy is apportioned across active licensees based on their liability share.",
+    "categories": [
+      "regulatory",
+      "llr_aro",
+      "tax_finance"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "The levy is proportional, which means your contribution depends on your LLR share versus the industry total. Operators with improving LLR actually pay less over time as the denominator stays stable while their numerator shrinks. Another reason LCA improvement has real financial payback.",
+    "is_update": true
+  },
+  {
+    "hash": "3e8a8d8edec31395",
+    "title": "AER Bulletin 2024-08: Closure Quota and Inventory Reduction Program",
+    "url": "https://static.aer.ca/prd/documents/bulletins/Bulletin-2024-08.pdf",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2024-03-01",
+    "excerpt": "AER Bulletin 2024-08 established the 2024 industry closure quota and provided guidance on the inventory reduction program. Operators are assigned mandatory closure spending based on their inactive liability share.",
+    "categories": [
+      "regulatory",
+      "llr_aro",
+      "environmental"
+    ],
+    "keywords_matched": [],
+    "score": 80,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Closure quota obligations are non-discretionary spending with hard deadlines. Build them into the operating budget 12-18 months out and sequence them by cost-per-closure. Operators who batch-abandon neighbouring wells capture crew mobilization savings that a one-off closure can't match.",
+    "is_update": true
+  },
+  {
+    "hash": "0ef97441d94d50a4",
+    "title": "AER Integrated Decision Approach \u2014 risk-based regulation",
+    "url": "https://www.aer.ca/regulating-development/project-application/integrated-decision-approach",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2020-01-01",
+    "excerpt": "The AER's Integrated Decision Approach integrates the technical, environmental, and participant review aspects of an application into a single decision-making process, calibrated by risk tier. Lower-risk applications move faster; higher-risk ones get deeper scrutiny.",
+    "categories": [
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 72,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Understanding where your application falls in the integrated decision risk tier predicts how much AER time it will consume. Projects that trigger participant involvement or environmental amendments jump to the slower lane. Plan timelines accordingly \u2014 and pre-consult early if your project is edge-of-risk-tier.",
+    "is_update": false
+  },
+  {
+    "hash": "37afdec33a47d680",
+    "title": "AER OneStop \u2014 Alberta's integrated application and compliance portal",
+    "url": "https://www.aer.ca/applications-and-notices/onestop",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2019-01-01",
+    "excerpt": "OneStop is the AER's centralized application submission, compliance reporting, and data management platform. It consolidates what used to be multiple parallel systems (Directive 056 applications, Directive 077 pipeline filings, Directive 081, EPAP, etc.) into one interface.",
+    "categories": [
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "OneStop is both a convenience and a trap. Every submission is time-stamped, archived, and visible to the AER forever. Rushing a filing because 'OneStop makes it easy' is the fastest way to create a documented compliance error. Treat every OneStop submission with the care you'd give a signed regulatory document \u2014 because that's what it is.",
+    "is_update": false
+  },
+  {
+    "hash": "801ed026cadab00f",
+    "title": "AER Annual Report 2021-2022",
+    "url": "https://static.aer.ca/prd/documents/reports/AER2021-22-AnnualReport.pdf",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2022-09-01",
+    "excerpt": "The AER's annual report provides a comprehensive overview of regulatory activities, compliance statistics, enforcement outcomes, and policy direction. Required reading for operators who want to anticipate regulatory focus areas for the coming year.",
+    "categories": [
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 70,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "The AER's annual report telegraphs where the regulator's inspection and enforcement attention is heading. If pipelines or methane show up in the priority areas, the next year will see heavier scrutiny there. Read it with that lens \u2014 not for the data, but for the signalled focus areas.",
+    "is_update": false
+  },
+  {
+    "hash": "981b8edbbdf00481",
+    "title": "Redwater Supreme Court Decision 2019: AER regulatory powers trump bankruptcy creditors",
+    "url": "https://www.aer.ca/providing-information/news-and-resources/news-and-announcements/stories/judgement-day",
+    "source": "Supreme Court of Canada / AER",
+    "jurisdiction": "Alberta / Federal",
+    "published_at": "2019-01-31",
+    "excerpt": "The Supreme Court of Canada ruled 5-2 in favour of the AER in Orphan Well Association v Grant Thornton Ltd (Redwater), confirming that end-of-life environmental obligations under provincial regulatory regimes take priority over bankruptcy creditor claims. This fundamentally reshaped Canadian oil & gas insolvency law.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 98,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Redwater is the single most important legal decision affecting Canadian oil & gas liability in the last 20 years. It means bankruptcy is no longer an exit ramp from cleanup obligations \u2014 regulatory obligations survive insolvency. Every operator's board should understand the implications: your end-of-life obligations are not transferable through corporate restructuring.",
+    "is_update": false
+  },
+  {
+    "hash": "804c029d1ff8f2d8",
+    "title": "Sequoia Resources Corporation bankruptcy \u2014 2018 to 2024 settlement",
+    "url": "https://www.pwc.com/ca/en/services/insolvency-assignments/sequoiaresources.html",
+    "source": "PwC / Sequoia Receivership",
+    "jurisdiction": "Alberta",
+    "published_at": "2018-03-28",
+    "excerpt": "Sequoia Resources Corporation's 2018 insolvency created the largest single orphan designation in Alberta history, with approximately 2,300 wells transferred to the Orphan Well Association. The 2024 settlement with Perpetual Energy (the company Sequoia was spun out from) created precedent for 'successor liability' claims.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 92,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Sequoia is the cautionary tale every junior operator's board should know. An apparently clean asset transfer created years of litigation and set precedents that affect every A&D transaction since. The lesson: due diligence matters, regulatory risk is not transferable by contract, and a sale that looks clean today can create liability exposure years later.",
+    "is_update": false
+  },
+  {
+    "hash": "4e4bc70b1a2e7b5e",
+    "title": "Trident Exploration collapse 2019 \u2014 another major orphan event",
+    "url": "https://arc-dev.theglobeandmail.com/business/industry-news/energy-and-resources/article-collapse-of-trident-exploration-threatens-to-more-than-double-orphan",
+    "source": "Globe and Mail / AER",
+    "jurisdiction": "Alberta",
+    "published_at": "2019-05-01",
+    "excerpt": "Trident Exploration's May 2019 collapse added approximately 3,300 wells to Alberta's orphan inventory, more than doubling the OWA's active well count at the time. The event accelerated regulatory discussions that led to Directive 088 and the broader liability management reform.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Trident and Sequoia together triggered the regulatory push that produced Directive 088 and the modern LCA framework. The pattern is consistent: industry concentration of risk \u2192 high-profile failure \u2192 rule tightening. Watch for the same pattern in future cycles.",
+    "is_update": false
+  },
+  {
+    "hash": "0557987b37d789de",
+    "title": "Perpetual Energy / Sequoia successor liability litigation \u2014 ABCA 2022",
+    "url": "https://www.bennettjones.com/Insights/Blogs/2022/03/Court-of-Appeal-Clarifies-Treatment-of-Asset-Retirement-Obligations",
+    "source": "Alberta Court of Appeal",
+    "jurisdiction": "Alberta",
+    "published_at": "2022-03-01",
+    "excerpt": "The Alberta Court of Appeal's 2022 Perpetual Energy decision clarified when an asset vendor can retain liability for abandonment and reclamation obligations even after a corporate sale. The court allowed PwC (Sequoia's trustee) to continue its $217M lawsuit against Perpetual.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 82,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "This decision expanded who can be pursued for cleanup costs after an asset sale goes wrong. It means asset vendors can't fully insulate themselves from liability by selling to undercapitalized buyers. The practical implication: VantageNorth helps vendors structure A&D deals that reduce successor liability exposure, not just regulatory compliance at the moment of transfer.",
+    "is_update": false
+  },
+  {
+    "hash": "e4c4318d8f593606",
+    "title": "Orphan Well Association 2024-2025 Annual Report \u2014 Sequoia settlement hits the orphan inventory",
+    "url": "https://ablawg.ca/2025/08/18/the-orphan-well-association-annual-report-2024-2025-the-sequoia-settlement-hits-the-orphan-inventory/",
+    "source": "ABlawg / Orphan Well Association",
+    "jurisdiction": "Alberta",
+    "published_at": "2025-08-18",
+    "excerpt": "Analysis of the OWA's 2024-2025 annual report, highlighting the accelerating inflow of orphan sites from the Sequoia settlement and ongoing insolvency pipeline. The report documents the growing mismatch between cleanup demand and the current levy-funded cleanup capacity.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "llr_aro",
+      "environmental"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 4,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "The OWA's year-over-year reports tell the real story of where the industry's liability is heading. Every operator should read the latest one \u2014 and the ABlawg commentary provides the critical 'what this means' layer that the raw report leaves out.",
+    "is_update": false
+  },
+  {
+    "hash": "d2467d73dae3a898",
+    "title": "Orphan Well Association: How Alberta's industry-funded cleanup system works",
+    "url": "https://www.orphanwell.ca/",
+    "source": "Orphan Well Association",
+    "jurisdiction": "Alberta",
+    "published_at": "2024-01-01",
+    "excerpt": "The OWA is a non-profit funded by an industry levy collected by the AER. It assumes decommissioning and reclamation responsibility for wells, facilities, and pipelines whose original licensees have gone bankrupt. Understanding how the OWA operates is essential for operators to understand their indirect liability exposure.",
+    "categories": [
+      "regulatory",
+      "llr_aro",
+      "environmental"
+    ],
+    "keywords_matched": [],
+    "score": 78,
+    "tier": 4,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Every operator pays into the OWA whether you know it or not \u2014 it's embedded in your annual AER levies. When another operator fails, the OWA's cleanup bill ultimately gets redistributed across the industry. This is why peer failure affects you: their orphans become your levy pressure.",
+    "is_update": false
+  },
+  {
+    "hash": "73d8fc822a583e2e",
+    "title": "Pembina Institute: 'Unpaid Bills' report series on orphan well liability",
+    "url": "https://www.pembina.org/sites/default/files/2026-08/Unpaid_Bills.pdf",
+    "source": "Pembina Institute",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-08-01",
+    "excerpt": "The Pembina Institute's recurring 'Unpaid Bills' analysis tracks the scale and funding adequacy of Alberta's orphan well cleanup system. The reports make the case for structural reform \u2014 including federal funding, polluter-pays mechanisms, and faster regulatory intervention.",
+    "categories": [
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 72,
+    "tier": 4,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Pembina's view represents one end of the policy debate. Operators don't have to agree with their conclusions to benefit from reading them \u2014 the data is sound and shows where political pressure is building. Expect their recommendations to influence future AER rule changes.",
+    "is_update": false
+  },
+  {
+    "hash": "491244dc646f3403",
+    "title": "BC Energy Regulator mandate expansion \u2014 September 2023 (IU 2023-15)",
+    "url": "https://bc-er.ca/news/bc-energy-regulator-mandate-expands-on-september-1-iu-2023-15",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2023-09-01",
+    "excerpt": "On September 1, 2023, the BC Oil and Gas Commission (BCOGC) became the BC Energy Regulator (BCER) under the new Energy Resource Activities Act (ERAA), replacing the Oil and Gas Activities Act (OGAA). The expanded mandate now covers hydrogen, geothermal, ammonia, methanol, and carbon capture activities.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "power_electricity"
+    ],
+    "keywords_matched": [],
+    "score": 88,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "The BCER's expanded mandate signals BC's long-term energy transition strategy. If you're a traditional oil & gas operator with any interest in diversifying into hydrogen or CCUS, the same regulator now oversees both \u2014 which is actually a compliance efficiency. One relationship, not three.",
+    "is_update": true
+  },
+  {
+    "hash": "3bd0c96a0c2de246",
+    "title": "BCER Permittee Capability Assessment (PCA) \u2014 BC's LCA equivalent",
+    "url": "https://www.bc-er.ca/files/operations-documentation/Liability-Management-Documentation/PCA-Program-Guidance.pdf",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2022-05-01",
+    "excerpt": "The Permittee Capability Assessment (PCA) is BCER's framework for evaluating operator financial and operational capability. Launched in 2022, it parallels Alberta's LCA but with BC-specific scoring. Poor PCA scores trigger additional security requirements and can block transfers.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 90,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "BC operators often treat the PCA as 'the LCA, basically' \u2014 but the scoring and remediation paths are different. We've had operators flagged in BC with PCA concerns that would have been fine under AER's LCA. If you operate in both provinces, don't assume your Alberta profile tells the BC story.",
+    "is_update": false
+  },
+  {
+    "hash": "1c1cc5224e725d2b",
+    "title": "BCER TU 2024-03: PCA expands to include dormant facility and pipeline liability",
+    "url": "https://www.bc-er.ca/news/program-expands-to-include-dormant-facility-pipeline-liability-tu-2024-03/",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2024-03-15",
+    "excerpt": "BCER's TU 2024-03 expanded the Permittee Capability Assessment to include dormant facility and pipeline liabilities, not just well-related exposures. Operators with significant inactive infrastructure saw their PCA profiles change overnight.",
+    "categories": [
+      "regulatory",
+      "llr_aro",
+      "pipeline"
+    ],
+    "keywords_matched": [],
+    "score": 82,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "This expansion caught many operators by surprise. If you have inactive facilities or discontinued pipelines on your books in BC, check how they now factor into your PCA \u2014 the pre-2024 baseline doesn't apply anymore.",
+    "is_update": true
+  },
+  {
+    "hash": "084dfa2e22eb9d8d",
+    "title": "BCER TU 2023-06: Changes to the Permittee Capability Assessment program",
+    "url": "https://www.bc-er.ca/news/changes-to-the-permittee-capability-assessment-pca-program-tu-2023-06/",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2023-06-01",
+    "excerpt": "BCER's TU 2023-06 introduced the first major amendments to the PCA program since its 2022 launch, including refined scoring methodology and new reporting requirements.",
+    "categories": [
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 78,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "The 2023 and 2024 PCA amendments show BCER's intent to continuously refine the framework. Expect more adjustments over the next 24 months. Operators should treat PCA submissions as a continuously evolving obligation, not a 'set it and forget it' annual filing.",
+    "is_update": true
+  },
+  {
+    "hash": "acc1c37bceeed32f",
+    "title": "BCER Corporate Financial and Reserves eSubmission Portal",
+    "url": "https://www.bc-er.ca/files/operations-documentation/Liability-Management-Documentation/Corporate-Financial-and-Reserves-eSubmission-Portal-Guidance.pdf",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2022-06-01",
+    "excerpt": "BCER's eSubmission portal is where operators file the corporate financial information and reserves data that feeds into the PCA calculation. Accurate, timely submissions are essential to maintaining a healthy PCA profile.",
+    "categories": [
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 72,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Operators sometimes delegate the corporate financial submission to their finance team without compliance oversight. That's a mistake \u2014 the data entered here directly drives your PCA score. We recommend compliance and finance co-sign every submission to ensure consistency with other regulatory filings.",
+    "is_update": false
+  },
+  {
+    "hash": "a2f06964595e97be",
+    "title": "BCER CMIS \u2014 Compliance Management Information System",
+    "url": "https://www.bc-er.ca/data-reports/compliance-enforcement/",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2021-01-01",
+    "excerpt": "CMIS is BCER's compliance tracking platform where inspection results, non-compliance findings, and enforcement actions are logged. It's publicly searchable, making operator compliance records visible to peers, investors, and acquirers.",
+    "categories": [
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "CMIS makes compliance history transparent \u2014 anyone can look up your inspection record. This cuts both ways: good performers get visible reputational benefit; poor performers can't hide from acquirers' due diligence. If your CMIS record has unresolved items, closing them should be a Q1 priority.",
+    "is_update": false
+  },
+  {
+    "hash": "31880048347ef044",
+    "title": "BC Oil and Gas Activities Act (OGAA) \u2014 legacy framework",
+    "url": "https://www.lexpert.ca/news/legal-faq/how-do-i-comply-with-the-oil-and-gas-activities-act-in-canada/376998",
+    "source": "Government of British Columbia",
+    "jurisdiction": "British Columbia",
+    "published_at": "2010-10-04",
+    "excerpt": "The Oil and Gas Activities Act (OGAA) was BC's foundational oil & gas regulatory statute from 2010 until its 2023 replacement by the Energy Resource Activities Act (ERAA). Many OGAA-era permits and operational requirements remain in force under transition provisions.",
+    "categories": [
+      "regulatory",
+      "oil",
+      "gas"
+    ],
+    "keywords_matched": [],
+    "score": 70,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Many BC operators still think in OGAA terms. The ERAA transition isn't just rebranding \u2014 it changed the regulator's jurisdiction and scope. If your operations started pre-2023, know which permits came under OGAA and how they transitioned under ERAA.",
+    "is_update": false
+  },
+  {
+    "hash": "163f48789403f48c",
+    "title": "BCER Annual Compliance Plan \u2014 what the regulator is watching",
+    "url": "https://www.bc-er.ca/files/reports/Compliance-and-Enforcement/Annual-Compliance-Plan-Overview-2026-2027.pdf",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-04-01",
+    "excerpt": "BCER publishes an annual compliance plan that previews the regulator's priority focus areas for the coming year. It telegraphs where inspection capacity will be deployed and which operator behaviours will attract more scrutiny.",
+    "categories": [
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 80,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "This document is free intelligence on where BCER is deploying its inspectors next year. Smart operators align their internal compliance priorities with the regulator's priorities \u2014 proactively closing exposure in the focus areas before inspection teams arrive.",
+    "is_update": false
+  },
+  {
+    "hash": "00acbbede08a0649",
+    "title": "Saskatchewan PNG Directives \u2014 overview of the directive series",
+    "url": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/oil-and-gas",
+    "source": "Saskatchewan Ministry of Energy and Resources",
+    "jurisdiction": "Saskatchewan",
+    "published_at": "2024-01-01",
+    "excerpt": "Saskatchewan's Petroleum and Natural Gas (PNG) Directives are the Ministry of Energy and Resources' primary regulatory instruments for upstream oil & gas operations. The directive series covers everything from well licensing to measurement, flaring, abandonment, and financial security.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Many Calgary-based consultancies focus on Alberta and treat Saskatchewan as an afterthought. That's a mistake \u2014 SK's regulatory regime has its own logic, its own filing cadence (via IRIS), and its own enforcement culture. We've worked both sides of the fourth meridian since 1996 and know the differences that matter.",
+    "is_update": false
+  },
+  {
+    "hash": "289012acfc5d8f7e",
+    "title": "Saskatchewan IRIS \u2014 Integrated Resource Information System",
+    "url": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/oil-and-gas/oil-and-gas-licensing-operations-and-requirements/integrated-resource-information-system-iris",
+    "source": "Saskatchewan Ministry of Energy and Resources",
+    "jurisdiction": "Saskatchewan",
+    "published_at": "2015-03-01",
+    "excerpt": "IRIS is Saskatchewan's online submission portal for well licensing, reporting, and compliance activities \u2014 the SK equivalent of Alberta's OneStop. All operational and regulatory filings flow through IRIS.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "IRIS is less forgiving than OneStop. Submission errors are harder to amend and the system's workflow assumptions differ from Alberta's. New-to-SK operators should budget training time before first filings \u2014 not after.",
+    "is_update": false
+  },
+  {
+    "hash": "e343ab479c4a39d7",
+    "title": "Saskatchewan PNG036: Venting and Flaring Requirements",
+    "url": "https://www.saskatchewan.ca/government/public-engagement/past-public-engagement/saskatchewan-methane-emission-requirements",
+    "source": "Saskatchewan Ministry of Energy and Resources",
+    "jurisdiction": "Saskatchewan",
+    "published_at": "2023-01-01",
+    "excerpt": "Directive PNG036 specifies Saskatchewan's venting and flaring requirements, including measurement standards, reporting cadence, and methane emission reduction obligations. The directive underpins SK's methane equivalency position with federal regulations.",
+    "categories": [
+      "gas",
+      "regulatory",
+      "environmental",
+      "carbon_climate"
+    ],
+    "keywords_matched": [],
+    "score": 82,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "PNG036 is the technical heart of Saskatchewan's methane compliance regime. Operators need robust measurement, documentation, and audit-ready records. Expect federal equivalency conversations to drive future amendments.",
+    "is_update": false
+  },
+  {
+    "hash": "8a16dc163ff4a7ba",
+    "title": "Saskatchewan Licensee Liability Rating Program \u2014 Security Deposits",
+    "url": "https://saskatchewan.ca/business/agriculture-natural-resources-and-industry/oil-and-gas/liability-management/licensee-liability-rating-program/security-deposits",
+    "source": "Saskatchewan Ministry of Energy and Resources",
+    "jurisdiction": "Saskatchewan",
+    "published_at": "2022-04-01",
+    "excerpt": "Saskatchewan's Licensee Liability Rating (LLR) program determines security deposit requirements based on the operator's deemed asset and liability values. Operators below the 1.0 threshold must post security equal to the shortfall.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "The SK LLR works similarly to Alberta's historical LLR \u2014 a ratio-based test. If your ratio drops below 1.0, security is required. Unlike Alberta's current LCA framework, SK's LLR is more mechanical and predictable. Model it quarterly, not annually.",
+    "is_update": false
+  },
+  {
+    "hash": "00acbbede08a0649",
+    "title": "Saskatchewan Lloydminster cross-border operations \u2014 AB/SK coordination",
+    "url": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/oil-and-gas",
+    "source": "Saskatchewan MER / Alberta AER",
+    "jurisdiction": "Alberta / Saskatchewan",
+    "published_at": "2024-01-01",
+    "excerpt": "Operations in the Lloydminster corridor straddling the Alberta-Saskatchewan border have unique regulatory complexity. Well bores drilled from an AB surface to an SK bottomhole (or vice versa) create jurisdictional overlap requiring coordinated compliance with both the AER and MER.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 72,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Lloydminster-area operators face double regulation. Every bore crossing the fourth meridian needs careful thought on licensing, royalty, and reporting. We've helped operators in this area structure their compliance programs to minimize duplication while satisfying both regulators.",
+    "is_update": false
+  },
+  {
+    "hash": "1e1350989cfecac3",
+    "title": "Trans Mountain Expansion \u2014 regulatory history from NEB to CER",
+    "url": "https://www.cer-rec.gc.ca/en/applications-hearings/view-applications-projects/trans-mountain-expansion/",
+    "source": "Canada Energy Regulator",
+    "jurisdiction": "Federal",
+    "published_at": "2019-06-18",
+    "excerpt": "The Trans Mountain Expansion (TMX) pipeline was first approved by the NEB in May 2016, subsequently quashed by the Federal Court of Appeal, re-reviewed, re-approved in June 2019, constructed through 2023-2024, and entered commercial service in May 2024. The project tripled Trans Mountain system capacity to ~890,000 bpd.",
+    "categories": [
+      "oil",
+      "pipeline",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 92,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "TMX reshaped Western Canadian crude netbacks. For producers moving barrels to the West Coast, it unlocked Pacific Rim pricing optionality. The regulatory history (including the 2018 court remand) is a case study in what proper consultation requires for major projects.",
+    "is_update": false
+  },
+  {
+    "hash": "ab4139c71cbce101",
+    "title": "Coastal GasLink pipeline \u2014 regulatory and Indigenous consultation history",
+    "url": "https://www.coastalgaslink.com/",
+    "source": "Coastal GasLink / BC EAO",
+    "jurisdiction": "British Columbia / Federal",
+    "published_at": "2024-10-01",
+    "excerpt": "The 670km Coastal GasLink pipeline carries natural gas from the Montney region in NE BC to the LNG Canada export terminal in Kitimat. Construction completed in October 2023 after a decade of regulatory review and intense Indigenous consultation processes, particularly with Wet'suwet'en hereditary chiefs.",
+    "categories": [
+      "gas",
+      "pipeline",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Coastal GasLink set precedents for how major infrastructure projects navigate overlapping provincial permitting, federal environmental review, and Indigenous consultation. If you're planning any BC pipeline project, study this one's consultation record \u2014 both successes and friction points.",
+    "is_update": false
+  },
+  {
+    "hash": "fd06cdf84fed6f1a",
+    "title": "LNG Canada \u2014 first major Canadian LNG export project",
+    "url": "https://www.lngcanada.ca/",
+    "source": "LNG Canada",
+    "jurisdiction": "British Columbia / Federal",
+    "published_at": "2024-12-01",
+    "excerpt": "LNG Canada's Kitimat export facility represents the first major LNG export project on Canada's west coast. Phase 1 (14 Mtpa) began commissioning in late 2024, opening Pacific Rim markets for Montney and Horn River natural gas production.",
+    "categories": [
+      "gas",
+      "pipeline",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "LNG Canada changes the fundamental demand picture for Western Canadian natural gas. Upstream producers finally have global pricing exposure, not just AECO/Henry Hub. For operators in the Montney, this is the most significant market development in a generation.",
+    "is_update": false
+  },
+  {
+    "hash": "3fe80fe28da162e6",
+    "title": "Canada Energy Regulator (CER) \u2014 formation and mandate (2019)",
+    "url": "https://www.cer-rec.gc.ca/en/about/",
+    "source": "Canada Energy Regulator",
+    "jurisdiction": "Federal",
+    "published_at": "2019-08-28",
+    "excerpt": "The CER replaced the National Energy Board (NEB) in August 2019 under the Canadian Energy Regulator Act. The transition modernized federal pipeline and infrastructure regulation with expanded Indigenous participation, impact assessment integration, and enhanced transparency requirements.",
+    "categories": [
+      "regulatory",
+      "pipeline"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Operators working with federally regulated pipelines should know that CER processes are substantively different from NEB-era practice. Indigenous consultation, cumulative effects assessment, and public engagement expectations are all higher. Budget the time and resources accordingly.",
+    "is_update": false
+  },
+  {
+    "hash": "9208865cecef6fa0",
+    "title": "Federal methane emissions regulations SOR/2025-280 \u2014 updated oil & gas rules",
+    "url": "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-31/html/sor-dors280-eng.html",
+    "source": "Environment and Climate Change Canada",
+    "jurisdiction": "Federal",
+    "published_at": "2025-12-31",
+    "excerpt": "SOR/2025-280 updated Canada's federal methane emissions regulations for the oil and gas sector. The new rules tighten venting, flaring, and leak detection requirements, with equivalency pathways for provincial programs that meet or exceed federal standards.",
+    "categories": [
+      "gas",
+      "regulatory",
+      "environmental",
+      "carbon_climate"
+    ],
+    "keywords_matched": [],
+    "score": 90,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "The federal methane regulations are the backstop \u2014 if your province (Alberta, BC, Saskatchewan) has equivalency, you follow provincial rules; if not, the federal rules apply directly. Know which regime governs your operations and track any equivalency renewal cycles that could change the answer.",
+    "is_update": true
+  },
+  {
+    "hash": "6b6cccff6d4f52fb",
+    "title": "Alberta TIER Regulation \u2014 Technology Innovation and Emissions Reduction",
+    "url": "https://www.alberta.ca/technology-innovation-and-emissions-reduction-regulation",
+    "source": "Government of Alberta",
+    "jurisdiction": "Alberta",
+    "published_at": "2020-01-01",
+    "excerpt": "Alberta's TIER regulation applies to large industrial emitters (initially 100,000+ tonnes CO2e/year, now broader). Operators must meet facility-specific emissions intensity benchmarks, with compliance obligations met via emissions reductions, emission performance credits, or TIER fund payments.",
+    "categories": [
+      "carbon_climate",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "TIER is Alberta's carbon pricing framework for large emitters. If you're approaching the applicability threshold or acquiring assets that trigger TIER coverage, model the compliance cost into your economics early. TIER obligations don't transfer with asset sales automatically \u2014 allocation needs explicit contract treatment.",
+    "is_update": false
+  },
+  {
+    "hash": "86b0e2dd42c6363c",
+    "title": "Pathways Alliance CCS Hub \u2014 Canada's largest proposed carbon capture project",
+    "url": "https://majorprojects.alberta.ca/details/Pathways-Alliance-Carbon-Capture-Storage-Hub-Phase-1/10695",
+    "source": "Pathways Alliance / Alberta",
+    "jurisdiction": "Alberta / Federal",
+    "published_at": "2025-11-27",
+    "excerpt": "The Pathways Alliance (six major oil sands producers: CNRL, Cenovus, ConocoPhillips, Imperial, MEG, Suncor) proposed a $16.5B carbon capture and storage hub capable of sequestering 22 Mtpa CO2 from oil sands operations. The 2025 federal-provincial MOU moved the project toward final investment decision.",
+    "categories": [
+      "oil",
+      "regulatory",
+      "carbon_climate"
+    ],
+    "keywords_matched": [],
+    "score": 85,
+    "tier": 3,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Pathways is the largest industrial CCUS deployment attempted in North America. Its success or failure will shape every subsequent CCUS project's economics. Mid-size operators should track it closely \u2014 the TIER credit framework and CCUS incentive structures emerging here will eventually apply to projects your size.",
+    "is_update": false
+  },
+  {
+    "hash": "e66cf02c1f62e858",
+    "title": "Clean Fuel Regulations \u2014 federal low-carbon fuel standard",
+    "url": "https://www.canada.ca/en/environment-climate-change/services/managing-pollution/energy-production/fuel-regulations/clean-fuel-regulations.html",
+    "source": "Environment and Climate Change Canada",
+    "jurisdiction": "Federal",
+    "published_at": "2022-07-01",
+    "excerpt": "The federal Clean Fuel Regulations require primary suppliers of gasoline and diesel to reduce the carbon intensity of their products through credits earned via low-carbon fuel production, blending, or project-based reductions. The regulation creates a federal credit market parallel to BC's LCFS.",
+    "categories": [
+      "carbon_climate",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "The CFR primarily affects refiners and importers, but upstream producers who invest in low-carbon intensity reductions (methane abatement, renewable power, CCUS) can potentially generate credits. Explore whether your operations qualify \u2014 this is a revenue opportunity hidden in a regulation.",
+    "is_update": false
+  },
+  {
+    "hash": "b8946c1485c48421",
+    "title": "Alberta Site Rehabilitation Program (SRP) \u2014 COVID-era inactive well cleanup",
+    "url": "https://www.alberta.ca/site-rehabilitation-program",
+    "source": "Government of Alberta",
+    "jurisdiction": "Alberta",
+    "published_at": "2020-05-01",
+    "excerpt": "The Alberta Site Rehabilitation Program allocated $1B of federal COVID-19 relief funds (2020-2023) to accelerate abandonment and reclamation of inactive wells, facilities, and pipelines. It generated substantial industry activity and reduced the inactive inventory by thousands of sites.",
+    "categories": [
+      "environmental",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [],
+    "score": 78,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "SRP showed what a well-funded closure program can achieve. The industry doesn't currently have an equivalent, so the burden has returned to operator-funded closure under AER's annual quota system. Operators who used SRP effectively to retire low-value assets are in a stronger LCA position today.",
+    "is_update": false
+  },
+  {
+    "hash": "57a633263d9f9a07",
+    "title": "Alberta Carbon Capture, Utilization and Storage \u2014 provincial framework",
+    "url": "https://www.alberta.ca/carbon-capture-utilization-and-storage-development-and-innovation",
+    "source": "Government of Alberta",
+    "jurisdiction": "Alberta",
+    "published_at": "2022-01-01",
+    "excerpt": "Alberta has positioned itself as a CCUS leader via pore space tenure, regulatory framework development, and incentives including the Carbon Capture Incentive Program. Multiple commercial projects (Pathways, others) are moving through development stages.",
+    "categories": [
+      "carbon_climate",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "CCUS in Alberta has moved from policy discussion to active project development. Operators considering CCUS opportunities should engage early with pore space allocation, tenure arrangements, and regulatory review timelines. The frameworks are new and still evolving.",
+    "is_update": false
+  },
+  {
+    "hash": "9f650833a5c20bda",
+    "title": "Alberta Energy Regulator Industrial Heartland pilot \u2014 enhanced compliance monitoring",
+    "url": "https://www.aer.ca/providing-information/news-and-resources",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2023-06-01",
+    "excerpt": "The AER's enhanced monitoring program in Alberta's Industrial Heartland uses continuous ambient air monitoring, inspections, and operator data to track cumulative emissions in a high-density industrial area.",
+    "categories": [
+      "environmental",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 70,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Industrial Heartland operators face more intense scrutiny than operators elsewhere \u2014 this is by design. If your facilities are in a monitoring-dense area, expect more frequent inspection, faster incident response requirements, and higher visibility if anything goes wrong.",
+    "is_update": false
+  },
+  {
+    "hash": "d6eea27a3dc2da91",
+    "title": "Alberta Occupational Health and Safety Act \u2014 2020-2021 reforms",
+    "url": "https://www.alberta.ca/ohs-act-regulation-code",
+    "source": "Government of Alberta",
+    "jurisdiction": "Alberta",
+    "published_at": "2021-12-01",
+    "excerpt": "Alberta's OHS Act underwent significant reforms in 2020-2021, including streamlined worker rights provisions, modernized incident reporting, updated enforcement mechanisms, and changes to joint health and safety committee requirements.",
+    "categories": [
+      "safety",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 80,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Operators who built their safety management systems before the 2020-2021 reforms need to confirm their current programs reflect the updated Act. We see audit findings regularly where SMS documentation still references repealed sections. A periodic SMS alignment review is table stakes compliance hygiene.",
+    "is_update": true
+  },
+  {
+    "hash": "b66753ccbe46199f",
+    "title": "Alberta OHS Code Part 37 \u2014 Oil, Gas, and Geothermal Energy",
+    "url": "https://search-ohs-laws.alberta.ca/legislation/occupational-health-and-safety-code/part-37-oil-gas-and-geothermal-energy/",
+    "source": "Government of Alberta",
+    "jurisdiction": "Alberta",
+    "published_at": "2022-01-01",
+    "excerpt": "Part 37 of Alberta's OHS Code sets industry-specific safety requirements for oil, gas, and geothermal operations. Covers everything from drilling to well servicing to production operations, including H2S handling, pressure vessel safety, and emergency response.",
+    "categories": [
+      "safety",
+      "oil",
+      "gas",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 82,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Part 37 is the Alberta OHS regime that applies directly to your field operations. Many operators rely on their SMS program for compliance but don't map directly to Part 37 clauses. We've found that auditors expect to see that direct mapping \u2014 upgrade your SMS documentation accordingly.",
+    "is_update": false
+  },
+  {
+    "hash": "35a00c4ae1406ff4",
+    "title": "COR Certification \u2014 Certificate of Recognition program for oil & gas",
+    "url": "https://www.energysafetycanada.com/Programs/Certificate-of-Recognition-COR",
+    "source": "Energy Safety Canada / PSAC",
+    "jurisdiction": "Alberta / BC / Saskatchewan",
+    "published_at": "2022-01-01",
+    "excerpt": "The Certificate of Recognition (COR) is Canada's leading health and safety management system certification. Many oil & gas operators require COR or SECOR (small employer) from service providers; many provincial WCB regimes offer premium discounts for CORed employers.",
+    "categories": [
+      "safety",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 82,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "COR isn't just a certificate \u2014 it's a system you have to live. Auditors look for evidence that your SMS is actually operating, not just documented. The common failure is the gap between what your binder says and what your crews actually do. We help close that gap.",
+    "is_update": false
+  },
+  {
+    "hash": "916484fb362add73",
+    "title": "WorkSafeBC oil and gas safety requirements",
+    "url": "https://www.worksafebc.com/en/health-safety/industries/oil-gas",
+    "source": "WorkSafeBC",
+    "jurisdiction": "British Columbia",
+    "published_at": "2023-01-01",
+    "excerpt": "WorkSafeBC regulates worker safety in BC's oil and gas sector through the Occupational Health and Safety Regulation and industry-specific requirements. BC operators must meet WorkSafeBC obligations in parallel with BCER operational compliance.",
+    "categories": [
+      "safety",
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "In BC, you're regulated by both WorkSafeBC (worker safety) and BCER (operational compliance). The two regimes overlap in areas like incident reporting, emergency response, and worker training. A single integrated safety program that satisfies both is more efficient than trying to run two parallel compliance tracks.",
+    "is_update": false
+  },
+  {
+    "hash": "2994655473835863",
+    "title": "CAPP \u2014 Canadian Association of Petroleum Producers",
+    "url": "https://www.capp.ca/",
+    "source": "CAPP",
+    "jurisdiction": "Federal",
+    "published_at": "2024-01-01",
+    "excerpt": "CAPP represents the majority of Canada's upstream oil and natural gas producers. Its policy positions, publications, and advocacy shape the regulatory and political environment that affects every operator in the country.",
+    "categories": [
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 72,
+    "tier": 4,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "CAPP's policy positions tell you where the industry is lobbying and what concerns are getting elevated. Even if you're not a member, CAPP's public positions influence regulatory direction \u2014 track them to anticipate what rules might change.",
+    "is_update": false
+  },
+  {
+    "hash": "6eb0cf4dbe449cad",
+    "title": "PSAC \u2014 Petroleum Services Association of Canada",
+    "url": "https://www.psac.ca/",
+    "source": "PSAC",
+    "jurisdiction": "Federal",
+    "published_at": "2024-01-01",
+    "excerpt": "PSAC represents service, supply, and manufacturing companies serving Canada's upstream oil and natural gas industry. Its annual drilling forecast is a widely-watched indicator of industry activity levels.",
+    "categories": [],
+    "keywords_matched": [],
+    "score": 70,
+    "tier": 4,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "PSAC's annual drilling forecast is a reliable leading indicator for service demand, rig rates, and crew availability. Operators planning multi-well programs 12-18 months out should calibrate against PSAC's demand projections.",
+    "is_update": false
+  },
+  {
+    "hash": "8a7f021483f9e15a",
+    "title": "EPAC \u2014 Explorers and Producers Association of Canada",
+    "url": "https://www.epac.ca/",
+    "source": "EPAC",
+    "jurisdiction": "Federal",
+    "published_at": "2024-01-01",
+    "excerpt": "EPAC represents junior and intermediate upstream oil and gas producers in Canada \u2014 the segment VantageNorth's clients overwhelmingly belong to. Its policy advocacy focuses on issues affecting smaller producers specifically (capital access, LLR/LCA framework, royalty structures).",
+    "categories": [
+      "regulatory"
+    ],
+    "keywords_matched": [],
+    "score": 72,
+    "tier": 4,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "EPAC speaks for the junior and intermediate producer specifically \u2014 the perspectives it advocates for are usually the ones that matter most to our client base. Worth following for policy advocacy on LCA reform, financial security rules, and anything else where junior producer economics diverge from supermajors.",
+    "is_update": false
+  },
+  {
+    "hash": "e5096d0a26b1a2af",
+    "title": "Alberta Royalty Framework \u2014 current structure and historical context",
+    "url": "https://www.alberta.ca/oil-and-gas-royalty-information",
+    "source": "Government of Alberta",
+    "jurisdiction": "Alberta",
+    "published_at": "2022-01-01",
+    "excerpt": "Alberta's Modernized Royalty Framework (MRF) applies to wells drilled after 2017 and uses a cost-allowance-based approach that provides different royalty rates during payout and post-payout periods. Legacy wells remain under pre-2017 royalty structures.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "tax_finance"
+    ],
+    "keywords_matched": [],
+    "score": 82,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "The MRF rewards operator-level cost discipline. Operators who carefully track drilling and completion costs for the C* calculation benefit materially during the post-payout period. If your accounting team isn't tracking costs to MRF requirements, you may be leaving royalty relief on the table.",
+    "is_update": false
+  },
+  {
+    "hash": "20d99fc9a780adda",
+    "title": "Saskatchewan Royalty Incentive Programs \u2014 targeted drilling incentives",
+    "url": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/oil-and-gas/oil-and-gas-royalty-incentives-and-taxation",
+    "source": "Saskatchewan Ministry of Energy and Resources",
+    "jurisdiction": "Saskatchewan",
+    "published_at": "2023-01-01",
+    "excerpt": "Saskatchewan offers several targeted royalty incentive programs designed to encourage drilling in specific zones, use of specific technologies, or operations in particular regions. Qualifying operations can earn reduced royalty rates for defined periods.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "tax_finance"
+    ],
+    "keywords_matched": [],
+    "score": 75,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Many operators don't apply for SK royalty incentives they qualify for \u2014 often because the application process is seen as bureaucratic. We help clients identify incentive eligibility during the drilling plan phase, not after the fact.",
+    "is_update": false
+  },
+  {
+    "hash": "b14058cb3e783022",
+    "title": "Federal Carbon Pricing \u2014 Greenhouse Gas Pollution Pricing Act",
+    "url": "https://www.canada.ca/en/environment-climate-change/services/climate-change/pricing-pollution-how-it-will-work.html",
+    "source": "Government of Canada",
+    "jurisdiction": "Federal",
+    "published_at": "2019-04-01",
+    "excerpt": "The federal Greenhouse Gas Pollution Pricing Act established a federal carbon pricing backstop that applies in provinces without equivalent provincial pricing. The current price trajectory climbs to $170/tonne by 2030, reshaping emissions-intensive operations' economics.",
+    "categories": [
+      "carbon_climate",
+      "regulatory",
+      "tax_finance"
+    ],
+    "keywords_matched": [],
+    "score": 82,
+    "tier": 1,
+    "added_at": "2026-11-20T17:05:34.628502+00:00",
+    "approved": true,
+    "vn_commentary": "Carbon pricing is embedded in nearly every operating cost and input price in Canada \u2014 fuel, power, services. Even operators not directly subject to industrial carbon pricing (TIER, OBPS) pay it indirectly. Build carbon cost escalation into your 5-year forecasts as a baseline assumption.",
+    "is_update": false
+  },
+  {
+    "hash": "059630cff9d982cc",
+    "title": "Cost to clean up orphan wells in Alberta reaches all-time high",
+    "url": "https://www.cbc.ca/lite/story/1.7620267",
+    "source": "CBC News",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-11-18",
+    "excerpt": "Alberta's estimated orphan oil and gas well cleanup liability has crossed $1.12 billion for the first time. Orphan count nearly doubled in one year from 1,719 to 3,388, driven largely by Sequoia Resources insolvency. Five more operators in bankruptcy are expected to add further orphans. The OWA industry levy sits at $135M annually.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "environmental",
+      "llr_aro"
+    ],
+    "keywords_matched": [
+      "aer",
+      "orphan well",
+      "llr",
+      "aro",
+      "levy"
+    ],
+    "score": 95,
+    "tier": 2,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "Levy pressure is building fast. Operators should model a 15-25% increase into 2027 budgets and rerun LLR/LCA scores against Directive 088 before year-end.",
+    "suggested_commentary": "Levy pressure is building fast. Operators should model a 15-25% increase into 2027 budgets and rerun LLR/LCA scores against Directive 088 before year-end.",
+    "is_update": false
+  },
+  {
+    "hash": "7d8fedcdc21c0f01",
+    "title": "Permittee Capability Assessment Program Improvements (TU 2026-09)",
+    "url": "https://www.bc-er.ca/news/permittee-capability-assessment-program-improvements-tu-2026-09/",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-09-01",
+    "excerpt": "BCER has updated its Permittee Capability Assessment (PCA) program \u2014 the BC counterpart to Alberta's LCA \u2014 with new scoring methodology and stricter reporting requirements for upstream operators.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "llr_aro"
+    ],
+    "keywords_matched": [
+      "bcer",
+      "bc energy regulator",
+      "capability assessment"
+    ],
+    "score": 88,
+    "tier": 1,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "BC operators: the PCA is BC's version of LCA. Changes here affect your ability to acquire wells, drill new ones, and transfer assets. Review your PCA score before Q1.",
+    "suggested_commentary": "BC operators: the PCA is BC's version of LCA. Changes here affect your ability to acquire wells, drill new ones, and transfer assets. Review your PCA score before Q1.",
+    "is_update": true
+  },
+  {
+    "hash": "89f41ddc83a1f780",
+    "title": "Renewable Energy Projects Regulation introduced (TU 2026-06)",
+    "url": "https://www.bc-er.ca/news/renewable-energy-projects-regulation-introduced-tu-2026-06/",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-06-15",
+    "excerpt": "BCER has introduced a new Renewable Energy Projects Regulation extending its regulatory oversight to renewable energy development. Permittees active in both upstream oil & gas and renewables will have unified compliance requirements.",
+    "categories": [
+      "power_electricity",
+      "regulatory"
+    ],
+    "keywords_matched": [
+      "bcer",
+      "renewable",
+      "regulation"
+    ],
+    "score": 72,
+    "tier": 1,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "Watch this if you're diversifying into renewables. BCER now has one roof over both oil & gas and renewable project compliance \u2014 compliance efficiency opportunity.",
+    "suggested_commentary": "Watch this if you're diversifying into renewables. BCER now has one roof over both oil & gas and renewable project compliance \u2014 compliance efficiency opportunity.",
+    "is_update": true
+  },
+  {
+    "hash": "2bc45eff2cb5ea7c",
+    "title": "New First Nation incident notification capability coming to CMIS (TU 2026-03)",
+    "url": "https://www.bc-er.ca/news/new-first-nation-incident-notification-capability-coming-to-cmis-tu-2026-03/",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-03-10",
+    "excerpt": "BCER is adding First Nation incident notification capability to the Compliance Management Information System (CMIS). Operators will have expanded reporting obligations tied to incidents on or near First Nation territories.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "emergency_response"
+    ],
+    "keywords_matched": [
+      "bcer",
+      "incident",
+      "compliance"
+    ],
+    "score": 68,
+    "tier": 1,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "Expanded Indigenous consultation and notification duties. Build these notification workflows into your incident response SOPs now, not after your first trigger event.",
+    "suggested_commentary": "Expanded Indigenous consultation and notification duties. Build these notification workflows into your incident response SOPs now, not after your first trigger event.",
+    "is_update": true
+  },
+  {
+    "hash": "20f52a5a6d308129",
+    "title": "Signage and emergency response plan requirements for ERAA dam owners (TU 2026-13)",
+    "url": "https://www.bc-er.ca/news/signage-and-emergency-response-plan-requirements-for-eraa-dam-owners-tu-2026-13/",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-10-05",
+    "excerpt": "BCER has released new signage and Emergency Response Plan (ERP) requirements for Energy Resource Activity Act (ERAA) dam owners, affecting tailings and water storage infrastructure across BC upstream operations.",
+    "categories": [
+      "regulatory",
+      "safety",
+      "environmental",
+      "emergency_response"
+    ],
+    "keywords_matched": [
+      "bcer",
+      "emergency response",
+      "dam"
+    ],
+    "score": 62,
+    "tier": 1,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "If you operate tailings or storage ponds in BC, your ERP and site signage program needs a review against TU 2026-13 before the compliance date.",
+    "suggested_commentary": "If you operate tailings or storage ponds in BC, your ERP and site signage program needs a review against TU 2026-13 before the compliance date.",
+    "is_update": true
+  },
+  {
+    "hash": "cf78ba28cf031eef",
+    "title": "CER approves Trans Mountain settlement, establishing a new framework for tolls",
+    "url": "https://www.canada.ca/en/canada-energy-regulator/news/2026/09/cer-approves-trans-mountain-settlement-establishing-a-new-framework-for-tolls.html",
+    "source": "Canada Energy Regulator",
+    "jurisdiction": "Federal",
+    "published_at": "2026-09-15",
+    "excerpt": "CER has approved a settlement establishing a new framework for Trans Mountain tolls, ending the regulatory uncertainty that followed the TMX expansion. The framework affects shipping economics for Alberta crude producers moving product to the coast.",
+    "categories": [
+      "oil",
+      "pipeline",
+      "regulatory",
+      "tax_finance"
+    ],
+    "keywords_matched": [
+      "cer",
+      "canada energy regulator",
+      "pipeline",
+      "trans mountain"
+    ],
+    "score": 81,
+    "tier": 1,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "Transportation economics for Alberta crude just got new clarity. If your production flows via TMX, recalibrate netback assumptions against the new toll framework.",
+    "suggested_commentary": "Transportation economics for Alberta crude just got new clarity. If your production flows via TMX, recalibrate netback assumptions against the new toll framework.",
+    "is_update": false
+  },
+  {
+    "hash": "f44dcc794bbd40a0",
+    "title": "CER recommends approval of Westcoast's Sunrise Expansion Program",
+    "url": "https://neb-one.gc.ca/en/about/news-room/news-releases/2026/cer-recommends-approval-westcoast-sunrise-expansion-program.html",
+    "source": "Canada Energy Regulator",
+    "jurisdiction": "Federal",
+    "published_at": "2026-08-20",
+    "excerpt": "CER has recommended approval of the Westcoast Sunrise Expansion Program, which would add 31 billion cubic metres per year of natural gas transmission capacity through BC and into Alberta.",
+    "categories": [
+      "gas",
+      "pipeline",
+      "regulatory"
+    ],
+    "keywords_matched": [
+      "cer",
+      "pipeline",
+      "natural gas"
+    ],
+    "score": 74,
+    "tier": 1,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "Major new BC-Alberta gas transmission capacity moves forward. Opens egress for Montney and Deep Basin producers. Watch toll filings for netback impact.",
+    "suggested_commentary": "Major new BC-Alberta gas transmission capacity moves forward. Opens egress for Montney and Deep Basin producers. Watch toll filings for netback impact.",
+    "is_update": false
+  },
+  {
+    "hash": "bd302bd39a7007e1",
+    "title": "AER: Industry closure quota for 2027 (Bulletin 2026-33)",
+    "url": "https://boereport.com/2026/08/04/industry-closure-quota-for-2027-bulletin-2026-33/",
+    "source": "BOE Report / AER",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-08-04",
+    "excerpt": "AER Bulletin 2026-33 sets the industry closure quota for 2027, continuing the mandatory inactive well decommissioning program. Operators are assigned individual spending obligations proportional to their inactive liability.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "environmental",
+      "llr_aro"
+    ],
+    "keywords_matched": [
+      "aer",
+      "closure",
+      "inactive well",
+      "abandonment"
+    ],
+    "score": 92,
+    "tier": 1,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "2027 closure quota is out. If you haven't modelled your mandatory spend obligation against planned opex, do it now \u2014 this isn't discretionary capital.",
+    "suggested_commentary": "2027 closure quota is out. If you haven't modelled your mandatory spend obligation against planned opex, do it now \u2014 this isn't discretionary capital.",
+    "is_update": true
+  },
+  {
+    "hash": "fd8346c41a29ba23",
+    "title": "AER designates Long Run Exploration Ltd.'s sites to Orphan Well Association for closure",
+    "url": "https://boereport.com/2026/04/16/aer-designates-long-run-exploration-ltd-s-sites-to-orphan-well-association-for-closure/",
+    "source": "BOE Report",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-04-16",
+    "excerpt": "The AER has designated Long Run Exploration Ltd.'s wells and facilities to the Orphan Well Association following the operator's insolvency, adding to the orphan inventory that funded industry participants ultimately pay to clean up.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "environmental",
+      "llr_aro"
+    ],
+    "keywords_matched": [
+      "aer",
+      "orphan well",
+      "closure",
+      "abandonment"
+    ],
+    "score": 85,
+    "tier": 3,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "Another insolvency, another transfer to the OWA. Every event like this raises the math on 2027 levy pressure for every remaining active licensee.",
+    "suggested_commentary": "Another insolvency, another transfer to the OWA. Every event like this raises the math on 2027 levy pressure for every remaining active licensee.",
+    "is_update": false
+  },
+  {
+    "hash": "a266369459504fbf",
+    "title": "Saskatchewan: Notice of proposed new Directive PNG026",
+    "url": "https://www.saskatchewan.ca/government/public-engagement/past-public-engagement/notice-of-proposed-new-directive-png026",
+    "source": "Saskatchewan MER",
+    "jurisdiction": "Saskatchewan",
+    "published_at": "2026-05-10",
+    "excerpt": "Saskatchewan's Ministry of Energy and Resources (MER) has proposed new Directive PNG026 governing upstream petroleum and natural gas operations. Industry comment period established.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory"
+    ],
+    "keywords_matched": [
+      "mer",
+      "ministry of energy and resources",
+      "directive"
+    ],
+    "score": 84,
+    "tier": 1,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "SK operators: new PNG directives change the compliance baseline. If you don't track the MER's public engagement cycle, you'll be reacting to changes instead of shaping them.",
+    "suggested_commentary": "SK operators: new PNG directives change the compliance baseline. If you don't track the MER's public engagement cycle, you'll be reacting to changes instead of shaping them.",
+    "is_update": false
+  },
+  {
+    "hash": "8cd79f335bed7ede",
+    "title": "Saskatchewan: Amended financial security requirements directive",
+    "url": "https://www.saskatchewan.ca/government/public-engagement/amended-financial-security-requirements-directive",
+    "source": "Saskatchewan MER",
+    "jurisdiction": "Saskatchewan",
+    "published_at": "2026-07-20",
+    "excerpt": "Saskatchewan MER has amended its financial security requirements directive, changing how operators post security against their end-of-life obligations. Affects LLR-equivalent calculations for SK-active operators.",
+    "categories": [
+      "oil",
+      "gas",
+      "regulatory",
+      "llr_aro",
+      "tax_finance"
+    ],
+    "keywords_matched": [
+      "mer",
+      "directive",
+      "llr",
+      "financial security"
+    ],
+    "score": 90,
+    "tier": 1,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "SK's financial security math just moved. If you're active in Saskatchewan, your capital reserved against wellbore liability may need to go up.",
+    "suggested_commentary": "SK's financial security math just moved. If you're active in Saskatchewan, your capital reserved against wellbore liability may need to go up.",
+    "is_update": true
+  },
+  {
+    "hash": "89438c8198a465e4",
+    "title": "Canada and Alberta reach agreement-in-principle on methane equivalency",
+    "url": "https://www.pm.gc.ca/en/news/news-releases/2026/03/25/canada-and-alberta-reach-agreement-principle-methane-equivalency",
+    "source": "Prime Minister's Office / Government of Canada",
+    "jurisdiction": "Federal / Alberta",
+    "published_at": "2026-03-25",
+    "excerpt": "Canada and Alberta have reached an agreement-in-principle on methane equivalency, allowing Alberta to maintain its own methane regulations while meeting federal reduction targets. Removes some of the regulatory overhang for Alberta operators.",
+    "categories": [
+      "gas",
+      "regulatory",
+      "environmental",
+      "carbon_climate"
+    ],
+    "keywords_matched": [
+      "methane",
+      "emissions",
+      "regulation",
+      "alberta"
+    ],
+    "score": 86,
+    "tier": 1,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "Good news for AB operators: regulatory overlap on methane just got clearer. Alberta's regulatory regime stays in effect, no duplicative federal filing.",
+    "suggested_commentary": "Good news for AB operators: regulatory overlap on methane just got clearer. Alberta's regulatory regime stays in effect, no duplicative federal filing.",
+    "is_update": false
+  },
+  {
+    "hash": "be3ab49e83afd145",
+    "title": "Alberta's draft methane regulations appear to contradict agreement-in-principle signed 48 hours earlier",
+    "url": "https://www.pembina.org/media-release/albertas-draft-methane-regulations-appear-contradict-agreement-principle-signed-48",
+    "source": "Pembina Institute",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-03-27",
+    "excerpt": "The Pembina Institute argues Alberta's draft methane regulations may not meet the federal equivalency standard agreed to just 48 hours earlier. Potential ongoing regulatory uncertainty for Alberta operators.",
+    "categories": [
+      "gas",
+      "regulatory",
+      "environmental",
+      "carbon_climate"
+    ],
+    "keywords_matched": [
+      "methane",
+      "emissions",
+      "regulation"
+    ],
+    "score": 74,
+    "tier": 4,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "Watch this thread. Equivalency agreements can be revoked if the federal government decides provincial rules fall short. Build flexibility into your methane strategy.",
+    "suggested_commentary": "Watch this thread. Equivalency agreements can be revoked if the federal government decides provincial rules fall short. Build flexibility into your methane strategy.",
+    "is_update": false
+  },
+  {
+    "hash": "bf15094289484d1a",
+    "title": "Pathways CCUS deal would ease TIER rules for Canadian oil sands producers",
+    "url": "https://carbon-pulse.com/531101/",
+    "source": "Carbon Pulse",
+    "jurisdiction": "Alberta / Federal",
+    "published_at": "2026-05-12",
+    "excerpt": "A Pathways Alliance CCUS investment deal would ease TIER (Technology Innovation and Emissions Reduction) obligations for oil sands producers in exchange for carbon capture capex. Affects large emitters' compliance cost trajectory.",
+    "categories": [
+      "oil",
+      "regulatory",
+      "carbon_climate"
+    ],
+    "keywords_matched": [
+      "carbon",
+      "tier",
+      "oil sands",
+      "regulation"
+    ],
+    "score": 78,
+    "tier": 3,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "Carbon costs are becoming negotiable. Large emitters can trade capex for compliance relief. Mid-size operators should watch for downstream TIER market impacts.",
+    "suggested_commentary": "Carbon costs are becoming negotiable. Large emitters can trade capex for compliance relief. Mid-size operators should watch for downstream TIER market impacts.",
+    "is_update": false
+  },
+  {
+    "hash": "58c1cd89c056021b",
+    "title": "Crown consultation and accommodation report: Taylor-Gordondale Pipeline Project",
+    "url": "https://neb-one.gc.ca/en/about/news-room/whats-new/2026/crown-consultation-accommodation-report-taylor-gordondale-pipeline-project.html",
+    "source": "Canada Energy Regulator",
+    "jurisdiction": "Federal / BC",
+    "published_at": "2026-02-11",
+    "excerpt": "CER has released the Crown consultation and accommodation report for the Taylor-Gordondale pipeline project, with the project receiving a federal certificate. Precedent-setting for Indigenous consultation requirements on BC pipeline projects.",
+    "categories": [
+      "gas",
+      "pipeline",
+      "regulatory"
+    ],
+    "keywords_matched": [
+      "cer",
+      "pipeline",
+      "crown consultation"
+    ],
+    "score": 70,
+    "tier": 1,
+    "added_at": "2026-11-19T19:44:23.091153+00:00",
+    "approved": true,
+    "vn_commentary": "Precedent-setting for Indigenous consultation on BC projects. Study this record if you have pipeline infrastructure applications pending.",
+    "suggested_commentary": "Precedent-setting for Indigenous consultation on BC projects. Study this record if you have pipeline infrastructure applications pending.",
+    "is_update": false
+  },
+  {
+    "title": "AER Rules of Practice amended \u2014 Bulletin 2026-22",
+    "url": "https://www.aer.ca/about-aer/media-centre/bulletins/bulletin-2026-22",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-05-05",
+    "excerpt": "AER amended its Rules of Practice effective May 5, 2026. Supporters of an application \u2014 not just those adversely affected \u2014 can now file statements of concern describing benefits or adverse impacts if not approved. Hearing panels must discontinue hearings in certain circumstances. Definition of 'participant' for cost claims was revised. A new edition of Directive 031 (REDA Energy Cost Claims) and an updated statement of concern form were released.",
+    "categories": [
+      "regulatory"
+    ],
+    "keywords_matched": [
+      "rules of practice",
+      "bulletin 2026-22",
+      "statement of concern",
+      "directive 031"
+    ],
+    "score": 92,
+    "tier": 1,
+    "vn_commentary": "Significant procedural shift. Supporter statements of concern will change the character of AER hearings \u2014 expect industry associations and landowner supporters to participate more actively. Directive 031 edition update means fresh cost-claim rules for any ongoing hearing work.",
+    "is_update": true,
+    "hash": "13a89227054f552e",
+    "added_at": "2026-11-20T18:33:32Z",
+    "approved": true
+  },
+  {
+    "title": "AER rescinds Directive 035 (CBM baseline water-well testing) \u2014 Bulletin 2026-13",
+    "url": "https://www.aer.ca/about-aer/media-centre/bulletins/bulletin-2026-13",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-03-31",
+    "excerpt": "AER withdrew Directive 035, ending mandatory baseline water-well testing for CBM wells drilled above the base of groundwater protection. Over 16,000 baseline test logs submitted since 2006, with no confirmed risk to public safety or systemic groundwater effects linked to CBM activity. Alberta Environment & Protected Areas simultaneously moved from mandatory requirement to best management practice. AER revised Directives 056 and 065 and Manual 012 to align.",
+    "categories": [
+      "regulatory",
+      "environmental"
+    ],
+    "keywords_matched": [
+      "directive 035",
+      "cbm",
+      "baseline water well",
+      "groundwater"
+    ],
+    "score": 88,
+    "tier": 1,
+    "vn_commentary": "Big regulatory relief for CBM operators but note the three companion documents (D056, D065, Manual 012) were revised \u2014 compliance work doesn't disappear, it moves. Review the revised directives before assuming the testing obligation is simply gone.",
+    "is_update": true,
+    "hash": "9721fb3f2b41fccc",
+    "added_at": "2026-11-20T18:33:32Z",
+    "approved": true
+  },
+  {
+    "title": "AER Directive 055 revised \u2014 new section on positive pressure storage systems (Bulletin 2026-25)",
+    "url": "https://www.aer.ca/about-aer/media-centre/bulletins/bulletin-2026-25",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-06-22",
+    "excerpt": "AER released a revised edition of Directive 055 (Storage Requirements for the Upstream Petroleum Industry). New section 3.9 addresses positive pressure systems like vapour-tight tanks used to store well production \u2014 treated as 'process vessels and not conventional storage tanks', with secondary containment still applying unless specific safeguards are in place. Section 5.4 clarifies that screening criteria (e.g., chloride content) don't apply to water that has crossed contaminated areas; licensees must assess, manage, treat and dispose under remediation guidelines.",
+    "categories": [
+      "regulatory",
+      "environmental",
+      "oil",
+      "gas"
+    ],
+    "keywords_matched": [
+      "directive 055",
+      "storage",
+      "vapour tight",
+      "positive pressure",
+      "secondary containment"
+    ],
+    "score": 87,
+    "tier": 1,
+    "vn_commentary": "Operators using vapour-tight tanks \u2014 revisit your containment design against the new section 3.9 safeguards. The contaminated-area water clause in 5.4 is a trap: screening criteria no longer apply, meaning full remediation assessment is now the baseline for that water.",
+    "is_update": true,
+    "hash": "2fe4c4b05cfe5f52",
+    "added_at": "2026-11-20T18:33:32Z",
+    "approved": true
+  },
+  {
+    "title": "AER Directive 020 Well Abandonment \u2014 new edition (Bulletin 2026-30)",
+    "url": "https://www.aer.ca/about-aer/media-centre/bulletins/bulletin-2026-30",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-07-27",
+    "excerpt": "New edition of Directive 020 streamlines well abandonment, including routine commingled abandonment of completed pools in designated regions. Section 2.2 clarifies notification covers all abandonment types. Section 3.3 makes re-entry to repair leaking wells or lower casing stubs routine (no AER approval needed for wellhead installation, surface/mineral rights still apply). Section 5.1 adds stabilized pressure testing guidance for downhole plugs. New qualified pools added for commingled abandonment in east-central Alberta.",
+    "categories": [
+      "regulatory",
+      "llr_aro",
+      "oil",
+      "gas"
+    ],
+    "keywords_matched": [
+      "directive 020",
+      "well abandonment",
+      "commingled",
+      "wellbore"
+    ],
+    "score": 90,
+    "tier": 1,
+    "vn_commentary": "This is a meaningful efficiency win for closure work in east-central Alberta \u2014 commingled abandonment in new qualified pools reduces per-well costs. Operators with multiwell pads: note section 8 lets you defer surface equipment removal until all wellbores are abandoned. Review your closure schedules against the new routine pool list.",
+    "is_update": true,
+    "hash": "f8a85e875b7341b2",
+    "added_at": "2026-11-20T18:33:32Z",
+    "approved": true
+  },
+  {
+    "title": "BCER Dormancy and Shutdown Regulation \u2014 major amendments (TU 2026-07)",
+    "url": "https://www.bc-er.ca/news/amendments-to-the-dormancy-and-shutdown-regulation-tu-2026-07",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-03-15",
+    "excerpt": "After 18+ months of consultation, BCER amended the Dormancy and Shutdown Regulation. Restoration reporting now requires qualified-professional verification. Annual work plan deadline moved from January 30 to November 15. Wells with 'well authorization granted' status added as dormant sites. New two-tier Liability Reduction Plan (LRP) framework based on portfolio size. 'Relevant geographic areas' introduced so First Nations can identify priority restoration zones with site substitution allowed. Strengthened engagement requirements through closure planning.",
+    "categories": [
+      "regulatory",
+      "llr_aro",
+      "oil",
+      "gas"
+    ],
+    "keywords_matched": [
+      "dormancy and shutdown regulation",
+      "liability reduction plan",
+      "LRP",
+      "qualified professional",
+      "TU 2026-07"
+    ],
+    "score": 95,
+    "tier": 1,
+    "vn_commentary": "This is the most consequential BC compliance change of 2026. The deadline shift from Jan 30 to Nov 15 compresses closure planning windows significantly. If your BC portfolio is near the tier threshold, run the numbers now \u2014 closure targets differ by tier. First Nations engagement requirements materially raise the floor on consultation.",
+    "is_update": true,
+    "hash": "2eeddc59f46da349",
+    "added_at": "2026-11-20T18:33:32Z",
+    "approved": true
+  },
+  {
+    "title": "BCER Saline Fluids for Hydraulic Fracturing Guideline \u2014 updated (TU 2026-08)",
+    "url": "https://www.bc-er.ca/news/updates-to-the-management-of-saline-fluids-for-hydraulic-fracturing-guideline-tu-2026-08/",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-04-07",
+    "excerpt": "BCER clarified expectations for storage facilities with live storage \u2014 design, review, monitoring, documentation. Groundwater monitoring section refined: minimum well configurations, sampling parameters, reporting expectations now explicit. Guidance now splits into two scenarios for produced water storage: under 6,600 m\u00b3 and over 6,600 m\u00b3.",
+    "categories": [
+      "regulatory",
+      "environmental",
+      "gas"
+    ],
+    "keywords_matched": [
+      "saline fluids",
+      "hydraulic fracturing",
+      "produced water",
+      "groundwater monitoring",
+      "TU 2026-08"
+    ],
+    "score": 78,
+    "tier": 1,
+    "vn_commentary": "Operators storing produced water near the 6,600 m\u00b3 threshold \u2014 the new split means two different compliance regimes depending on which side you're on. Groundwater monitoring documentation is where audits now land.",
+    "is_update": true,
+    "hash": "a31a6f917d1b4460",
+    "added_at": "2026-11-20T18:33:32Z",
+    "approved": true
+  },
+  {
+    "title": "BCER eSubmission forms for Site Assessment and Remediation \u2014 overhauled (TU 2026-10)",
+    "url": "https://www.bc-er.ca/news/enhancements-to-esubmission-forms-for-site-assessment-and-remediation-tu-2026-10/",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-05-15",
+    "excerpt": "BCER updated the Site Assessment Form for Remediation Complete and Remediation Incomplete; replaced the Certificate of Restoration Part I and the Dormancy and Shutdown Assessment Forms. Facilities and pipelines can now be submitted independently or combined with associated well locations. Standardized reporting feeds into dormant site, liability, and surface tenure management.",
+    "categories": [
+      "regulatory",
+      "llr_aro",
+      "environmental"
+    ],
+    "keywords_matched": [
+      "esubmission",
+      "certificate of restoration",
+      "site assessment",
+      "TU 2026-10"
+    ],
+    "score": 82,
+    "tier": 1,
+    "vn_commentary": "Form replacements mean every pending COR Part I submission needs to be redone on the new form. Train your environmental team before the next assessment cycle \u2014 review workflow is now standardized around these new fields.",
+    "is_update": true,
+    "hash": "7bb307b1e37d066b",
+    "added_at": "2026-11-20T18:33:32Z",
+    "approved": true
+  },
+  {
+    "title": "BCER Application Management System \u2014 Hydrogen Facility updates (TU 2026-12)",
+    "url": "https://www.bc-er.ca/news/updates-to-the-application-management-system-ams-for-hydrogen-facility-applications-tu-2026-12/",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-05-20",
+    "excerpt": "BCER streamlined AMS submissions for Class 1/2/3 hydrogen manufacturing facility applications. New mandatory field: 'Maximum Aggregate Weight of Hydrogen at Operating Area of Facility (tonnes)'. AMS now auto-assigns facility class based on aggregate weight plus production capacity: Class 1 (<4.5 t, <100,000 t/yr), Class 2 (\u22654.5 t, <100,000 t/yr, not co-located with ammonia/methanol), Class 3 (>4.5 t, >100,000 t/yr or otherwise non-qualifying).",
+    "categories": [
+      "regulatory",
+      "hydrogen"
+    ],
+    "keywords_matched": [
+      "application management system",
+      "AMS",
+      "hydrogen facility",
+      "class 1 class 2 class 3",
+      "TU 2026-12"
+    ],
+    "score": 80,
+    "tier": 1,
+    "vn_commentary": "Classification is now deterministic \u2014 you enter tonnage, AMS tells you your class. Confirm your facility's maximum aggregate hydrogen weight before applying; the field is mandatory and feeds the automatic classification.",
+    "is_update": true,
+    "hash": "4bfad803d6294276",
+    "added_at": "2026-11-20T18:33:32Z",
+    "approved": true
+  },
+  {
+    "title": "BCER Consultation and Notification Regulation \u2014 broader MoTT scope (TU 2026-16)",
+    "url": "https://www.bc-er.ca/news/changes-to-the-requirements-for-consultation-and-notification-regulation-tu-2026-16/",
+    "source": "BC Energy Regulator",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-07-22",
+    "excerpt": "Effective October 1, 2026, section 9 of the regulation widens when pipeline permit applicants must consult with the Ministry of Transportation and Transit (MoTT). Previously required only for arterial or municipal highway rights-of-way; now covers highway rights-of-way as defined in the Transportation Act. Purpose: earlier MoTT review, fewer later permit amendments, more predictable permitting.",
+    "categories": [
+      "regulatory",
+      "pipeline"
+    ],
+    "keywords_matched": [
+      "consultation and notification regulation",
+      "MoTT",
+      "pipeline permit",
+      "highway right-of-way",
+      "TU 2026-16"
+    ],
+    "score": 85,
+    "tier": 1,
+    "vn_commentary": "Big scope expansion \u2014 any BC pipeline route touching a highway right-of-way as defined under the Transportation Act now triggers mandatory MoTT consultation. Add that step into your BC pipeline application workflow before October 1 or risk a non-starter submission.",
+    "is_update": true,
+    "hash": "12460f657680418b",
+    "added_at": "2026-11-20T18:33:32Z",
+    "approved": true
+  },
+  {
+    "title": "Saskatchewan: Directives PNG016 and PNG018 amended (BT2026-002)",
+    "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/153345/BT2026-002_PNG016_and_PNG018.pdf",
+    "source": "Saskatchewan MER",
+    "jurisdiction": "Saskatchewan",
+    "published_at": "2026-02-03",
+    "excerpt": "Amended PNG016 (Acknowledgment of Reclamation Requirements) and PNG018 (Detailed Site Assessment) effective Feb 3, 2026. New information letter must explain landowner obligations and expectations in the AOR process. 90-day minimum contact attempt period before pursuing Reclamation Feedback Form was removed. Site assessment parameters clarified and standardized. Digital signatures and site assessment photos now mandatory. Landowner interaction records must be kept. Harmonized with SK Agriculture, SK Environment, ECCC, and Indian Oil and Gas Canada.",
+    "categories": [
+      "regulatory",
+      "llr_aro",
+      "environmental"
+    ],
+    "keywords_matched": [
+      "PNG016",
+      "PNG018",
+      "acknowledgment of reclamation",
+      "detailed site assessment",
+      "BT2026-002"
+    ],
+    "score": 90,
+    "tier": 1,
+    "vn_commentary": "Big documentation uplift for SK closure work. Digital signatures and photos are now compliance requirements, not best practices. Train field environmental staff on the new records-retention expectations for landowner interactions. The removal of the 90-day waiting period speeds non-responsive landowner workflows.",
+    "is_update": true,
+    "hash": "73abe0aba4d2697a",
+    "added_at": "2026-11-20T18:33:32Z",
+    "approved": true
+  },
+  {
+    "title": "Canadian Natural to acquire Advantage Energy for $2.53B \u2014 major Montney consolidation",
+    "url": "https://www.lexpert.ca/big-deals/canadian-natural-to-acquire-advantage-energy-for-253-billion/394797",
+    "source": "Lexpert / Canadian Natural Resources",
+    "jurisdiction": "Alberta / BC",
+    "published_at": "2026-11-16",
+    "excerpt": "Canadian Natural Resources announced a $2.53B all-cash acquisition of Advantage Energy by statutory plan of arrangement \u2014 $13.55/share, 25% premium to Nov 13 close. Advantage brings 79,000 boe/d of Montney and Charlie Lake production adjacent to CNQ's Grande Prairie operations, the 425 mmcf/d Glacier Gas Plant, the newly commissioned 75 mmcf/d Progress Gas Plant, and 2,200+ future drilling locations. Closing expected Q1 2027 pending Competition Act approval, Court of King's Bench approval, and Advantage shareholder vote in January 2027.",
+    "categories": [
+      "acquisitions_md",
+      "oil",
+      "gas"
+    ],
+    "keywords_matched": [
+      "Canadian Natural",
+      "Advantage Energy",
+      "acquisition",
+      "Montney",
+      "Charlie Lake",
+      "Glacier Gas Plant"
+    ],
+    "score": 98,
+    "tier": 3,
+    "vn_commentary": "This is the biggest Western Canada M&A deal of 2026. For juniors in the Montney, this consolidation under a senior with its own processing capacity changes the competitive landscape \u2014 expect tighter third-party processing terms as CNQ keeps more volume inside its own infrastructure. Watch the Competition Bureau review timeline; it's the only real risk to closing.",
+    "is_update": false,
+    "hash": "f179a57d40af6769",
+    "added_at": "2026-11-20T19:11:01Z",
+    "approved": true
+  },
+  {
+    "title": "Strathcona Resources to acquire Greenfire Resources in $2.1B oil sands consolidation",
+    "url": "https://www.worldoil.com/news/2026/11/9/strathcona-to-acquire-greenfire-in-2-1-billion-oil-sands-deal/",
+    "source": "World Oil / Strathcona Resources",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-11-09",
+    "excerpt": "Strathcona Resources announced an agreement to acquire Greenfire Resources in a $2.1B oil sands consolidation deal (up to $2.9B per some outlets including contingent consideration). Transaction consolidates SAGD operations in Alberta. Deal structure and closing conditions to follow in full agreement details.",
+    "categories": [
+      "acquisitions_md",
+      "oil"
+    ],
+    "keywords_matched": [
+      "Strathcona",
+      "Greenfire",
+      "oil sands",
+      "SAGD",
+      "acquisition"
+    ],
+    "score": 92,
+    "tier": 3,
+    "vn_commentary": "Second major 2026 oil & gas consolidation in a month (after CNQ-Advantage). The oil sands M&A thesis is active \u2014 expect more mid-tier SAGD operators to become targets. For juniors with interests in SAGD service corridors, watch for operator changes at project level.",
+    "is_update": false,
+    "hash": "a3e0c0d6db1b2eb3",
+    "added_at": "2026-11-20T19:11:01Z",
+    "approved": true
+  },
+  {
+    "title": "Alberta: Resource Asset Closure Assurance and Stewardship Fund \u2014 $50K upfront per new well (announced Nov 18)",
+    "url": "https://boereport.com/2026/11/18/alberta-government-to-require-cleanup-funds-to-be-set-aside-for-each-new-well-drilled/",
+    "source": "BOE Report / Government of Alberta",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-11-18",
+    "excerpt": "Energy Minister Brian Jean announced proposed legislation creating the Resource Asset Closure Assurance and Stewardship Fund. Operators would pay up to $50,000 per new well upfront plus annual payments for up to 10 years; compound interest would cover typical well cleanup. Funds attach to the well and follow ownership changes. On reclamation, funds return to operator; on orphaning, funds go to OWA. Effective for wells drilled after April 1, 2027 if passed. Existing orphan well levy continues; 2026-27 levy is $154.56M (up from $144.45M). OWA inventory: 7,328 wells awaiting decommissioning, 9,258 sites needing reclamation, $1.66B estimated cleanup cost.",
+    "categories": [
+      "llr_aro",
+      "regulatory",
+      "tax_finance",
+      "oil",
+      "gas"
+    ],
+    "keywords_matched": [
+      "Resource Asset Closure Assurance",
+      "Stewardship Fund",
+      "well cleanup",
+      "orphan well",
+      "Brian Jean"
+    ],
+    "score": 99,
+    "tier": 1,
+    "vn_commentary": "This is the most consequential Alberta liability change since Directive 088. Every new well drilled after April 1, 2027 carries a $50K upfront closure deposit plus a 10-year annuity. For juniors planning 2027 drill programs, this materially changes well economics \u2014 build the deposit into your AFE now and model the cash-flow impact. Watch for the specific annual payment amount in the bill text; it's not yet disclosed. The industry Orphan Well Levy stays on top of this, so total liability-related cost per well climbs.",
+    "is_update": false,
+    "hash": "1e2d583f2e88b749",
+    "added_at": "2026-11-20T19:11:01Z",
+    "approved": true
+  },
+  {
+    "title": "2584017 Alberta Ltd. v. BC Energy Regulator \u2014 tribunal appeal dismissed (2026 BCERAT 5)",
+    "url": "https://www.bcerat.ca/decision/2026_bcerat_5",
+    "source": "BC Energy Resource Appeal Tribunal",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-09-17",
+    "excerpt": "BCERAT dismissed an appeal brought by 2584017 Alberta Ltd. against the BC Energy Regulator in a matter involving third party ConocoPhillips Canada Resources Corp. Decision issued Sep 17, 2026 under the Energy Resource Activities Act (file ERAT-ERA-25-A003). The BCER decision stands. Full written reasons in the PDF on bcerat.ca.",
+    "categories": [
+      "regulatory"
+    ],
+    "keywords_matched": [
+      "BCERAT",
+      "Energy Resource Appeal Tribunal",
+      "BCER appeal",
+      "Energy Resource Activities Act"
+    ],
+    "score": 78,
+    "tier": 2,
+    "vn_commentary": "Worth reading the full reasons \u2014 BCERAT dismissals set the bar for what BCER decisions survive appeal. If you're contemplating an ERA Act challenge, this is a recent benchmark for the tribunal's standard of review. Add BCERAT decisions to your quarterly compliance scan; they rarely make trade press but set the operating interpretation of the Act.",
+    "is_update": false,
+    "hash": "9df2f05890009999",
+    "added_at": "2026-11-20T19:11:01Z",
+    "approved": true
+  },
+  {
+    "title": "OWA 2025/26 annual report \u2014 orphan inventory hits $1.66B, 7,302 wells awaiting decommissioning",
+    "url": "https://ablawg.ca/2026/07/30/the-orphan-well-association-annual-report-2025-2026-the-problem-with-the-aers-long-run-plan-for-orphan-oil-and-gas-sites/",
+    "source": "ABlawg / Orphan Well Association",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-07-30",
+    "excerpt": "OWA released its 2025/26 annual report July 15. Revenue ~$193M, levy $144M rising to $154.6M in 2026/27. OWA holds $330M in government loans repayable by Oct 2035. Reclamation certificates ~850. Estimated closure cost was $1.16B at March 31, 2026; after Long Run Exploration transfer in April 2026 (2,980 wells), inventory jumped to $1.66B and wells awaiting decommissioning rose from 4,200 to 7,302. ABlawg critique questions the 7% annual levy growth assumption, estimates past levies were $1.7B too low, and criticizes the AER for redacting a June 2025 levy-setting slideshow.",
+    "categories": [
+      "llr_aro",
+      "regulatory",
+      "oil",
+      "gas",
+      "tax_finance"
+    ],
+    "keywords_matched": [
+      "Orphan Well Association",
+      "OWA annual report",
+      "Long Run Exploration",
+      "orphan well levy",
+      "closure costs"
+    ],
+    "score": 90,
+    "tier": 4,
+    "vn_commentary": "The $1.66B inventory confirms what every working licensee already suspects: the levy is not keeping pace with new orphaning. The author's $1.7B shortfall estimate is a benchmark for where future levy increases could land \u2014 model that into your long-range liability planning. Pair this read with the Nov 18 Resource Asset Closure Assurance Fund announcement: the province is now moving to prevent new orphans, but the existing $1.66B tail sits on the levy.",
+    "is_update": false,
+    "hash": "a733e9cbd4543a74",
+    "added_at": "2026-11-20T19:11:01Z",
+    "approved": true
+  },
+  {
+    "title": "Shell to acquire ARC Resources for $22B \u2014 biggest Canadian energy M&A of 2026",
+    "url": "https://www.bnnbloomberg.ca/business/company-news/2026/04/27/shell-to-buy-arc-resources-in-deal-valued-at-22b-including-debt/",
+    "source": "BNN Bloomberg / Shell",
+    "jurisdiction": "Alberta / BC",
+    "published_at": "2026-04-27",
+    "excerpt": "Shell announced an agreement to acquire ARC Resources for ~$22B including assumed debt \u2014 the largest Canadian energy M&A of 2026. Offer of $32.80/share (~27% premium): 0.40247 Shell shares plus $8.20 cash per ARC share. ARC's Montney assets in NE BC and NW Alberta produced 374,000 boe/d last year and sit adjacent to Shell's existing Montney holdings. ARC supplies gas to LNG Canada (Shell-led Kitimat plant) under a long-term contract and has a tolling deal with Cedar LNG. Analysts read the deal as a positive signal for LNG Canada Phase 2 FID. Closing expected H2 2026, subject to shareholder approval, court approval, and Investment Canada Act review.",
+    "categories": [
+      "acquisitions_md",
+      "oil",
+      "gas",
+      "lng"
+    ],
+    "keywords_matched": [
+      "Shell",
+      "ARC Resources",
+      "Montney",
+      "LNG Canada",
+      "Cedar LNG",
+      "Investment Canada Act"
+    ],
+    "score": 100,
+    "tier": 3,
+    "vn_commentary": "Biggest Canadian energy deal of 2026, full stop. Shell doubling down on Canadian gas with a Montney powerhouse is a confidence signal for LNG Canada Phase 2 and the broader BC gas-export thesis. For juniors operating in the Montney and Charlie Lake, the processing and marketing landscape just consolidated again \u2014 review your third-party processing contracts and gas marketing exposures. Watch the Investment Canada Act review timeline; that's the real closing risk.",
+    "is_update": false,
+    "hash": "f0e547eb377a4309",
+    "added_at": "2026-11-20T19:18:14Z",
+    "approved": true
+  },
+  {
+    "title": "Cenovus acquires MEG Energy for $7.9B \u2014 Christina Lake SAGD consolidation",
+    "url": "https://www.ogj.com/general-interest/companies/news/55311707/cenovus-meg-energy-agree-to-acquisition-deal-to-grow-canadian-oil-sands-production",
+    "source": "Oil & Gas Journal / Cenovus Energy",
+    "jurisdiction": "Alberta",
+    "published_at": "2025-08-22",
+    "excerpt": "Cenovus announced acquisition of MEG Energy for C$7.9B (including assumed debt), 75% cash / 25% Cenovus shares. Key asset: Christina Lake oil sands \u2014 directly adjacent to Cenovus's existing Christina Lake operations. Also includes Surmont, Thornbury, May River, Kirby assets; combined original oil in place 5.6B barrels. Adds 110,000 b/d production; combined oil sands output over 720,000 b/d, targeting ~850,000 b/d in 2028. 120,000 b/d export pipeline capacity acquired. Cenovus plan includes 250+ bypassed redevelopment well locations at Christina Lake with no additional steam required. MEG board had rejected unsolicited Strathcona Resources bid earlier in 2025. Closing Q4 2025.",
+    "categories": [
+      "acquisitions_md",
+      "oil"
+    ],
+    "keywords_matched": [
+      "Cenovus",
+      "MEG Energy",
+      "Christina Lake",
+      "SAGD",
+      "oil sands"
+    ],
+    "score": 93,
+    "tier": 3,
+    "vn_commentary": "Cenovus's biggest move since Husky (2021). The adjacent Christina Lake footprint is the strategic logic \u2014 one operator running both halves of what was already a single contiguous resource. 250+ redevelopment locations without new steam is material: it extends plateau production without adding emissions intensity under TIER. The pre-deal Strathcona rejection explains why Strathcona pivoted to Greenfire a year later.",
+    "is_update": false,
+    "hash": "53b8d8c9142e8e61",
+    "added_at": "2026-11-20T19:18:14Z",
+    "approved": true
+  },
+  {
+    "title": "Cenovus acquires Husky Energy for $3.8B \u2014 created Canada's third-largest O&G producer (historical)",
+    "url": "https://boereport.com/2021/03/31/cenovus-completes-amalgamation-with-husky-energy-inc/",
+    "source": "BOE Report / Cenovus Energy",
+    "jurisdiction": "Alberta",
+    "published_at": "2021-01-01",
+    "excerpt": "Historical landmark: Cenovus closed its $3.8B all-stock acquisition of Husky Energy Jan 1, 2021 (announced Oct 25, 2020). Deal created Canada's third-largest oil and gas producer with integrated upstream, midstream, and downstream operations. Combined production of ~750,000 boe/d including oil sands, conventional heavy oil, Deep Basin natural gas, offshore Atlantic, and Asia Pacific. Downstream footprint added 660,000 bpd of refining capacity across Canada and the US Midwest. Amalgamation completed under the Canada Business Corporations Act.",
+    "categories": [
+      "acquisitions_md",
+      "oil",
+      "gas",
+      "pipeline"
+    ],
+    "keywords_matched": [
+      "Cenovus",
+      "Husky Energy",
+      "amalgamation",
+      "oil sands",
+      "integrated"
+    ],
+    "score": 85,
+    "tier": 3,
+    "vn_commentary": "Historical anchor for understanding Cenovus's current scale. The Husky deal gave Cenovus the integrated model \u2014 upstream production matched with its own refining capacity. That integration is why Cenovus's margins hold up through WTI-WCS differential blowouts better than pure upstream peers. Context for reading the MEG deal: Cenovus has done this before and has the integration playbook.",
+    "is_update": false,
+    "hash": "eb42c21b814dc7cc",
+    "added_at": "2026-11-20T19:18:14Z",
+    "approved": true
+  },
+  {
+    "title": "AER Bulletin 2026-45 \u2014 OneStop operational notifications + 7 directives revised (second Directive 020 edition this year)",
+    "url": "https://www.aer.ca/about-aer/media-centre/bulletins/bulletin-2026-45",
+    "source": "Alberta Energy Regulator",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-11-02",
+    "excerpt": "AER released new editions of Directives 020, 036, 050, 055, 058, 067, 083 and Manual 023. Starting Nov 2, 2026, operational notifications must go through OneStop: abandonment, flaring/venting, hydraulic fracturing, drilling commencement, insolvency proceedings, well drilling waste pre-disposal, plus Water Act Codes of Practice notifications (hydrostatic testing, outfall structure, pipelines crossing, watercourse crossing). The Oil & Gas Conservation Rules, Oil Sands Conservation Rules, Pipeline Rules, Coal Conservation Rules, Geothermal Resource Development Rules, Brine-Hosted and Rock-Hosted Mineral Development Rules will be amended to support the new editions. E&E Emergency 24-Hour Response Line reporting unchanged.",
+    "categories": [
+      "regulatory",
+      "oil",
+      "gas",
+      "pipeline",
+      "llr_aro"
+    ],
+    "keywords_matched": [
+      "Bulletin 2026-45",
+      "OneStop",
+      "Directive 020",
+      "Directive 055",
+      "Directive 067",
+      "operational notifications"
+    ],
+    "score": 94,
+    "tier": 1,
+    "vn_commentary": "Big operational shift. This is the SECOND new edition of Directive 020 in 2026 (first was Bulletin 2026-30, July). Pair with D055, D067, and the others, this is a sweeping update to how routine operational events get reported. If your field team still uses eFiling or legacy notification paths for these items, the Nov 2 switch to OneStop is already in force \u2014 audit your workflow this week. The companion Rules amendments (OGCR, OSCR, Pipeline Rules, etc.) haven't been detailed yet; watch for those in coming weeks.",
+    "is_update": true,
+    "hash": "1a78e61a368e9f50",
+    "added_at": "2026-11-20T19:52:47Z",
+    "approved": true
+  },
+  {
+    "title": "AER suspension order to Sumerian Oil & Gas \u2014 OWA authorized to shut in wells (textbook enforcement case)",
+    "url": "https://boereport.com/2026/10/14/alberta-energy-regulator-issues-suspension-order-to-sumerian-oil-gas-inc/",
+    "source": "BOE Report / AER",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-10-05",
+    "excerpt": "AER issued suspension order Oct 5 (announced Oct 14) authorizing the Orphan Well Association to shut in, secure, discontinue, and render safe all Sumerian Oil & Gas wells, facilities, and pipelines within 14 days. Three stacked non-compliance areas cited: (1) failure to meet reasonable care obligations at sites per April and September orders; (2) failure on two releases per August and September Environmental Protection Orders; (3) failure to pay the required security deposit for the 2025 mandatory closure spend quota per a July order. Sumerian responsible for all OWA costs. OWA deadline to secure assets: October 19, 2026.",
+    "categories": [
+      "regulatory",
+      "llr_aro",
+      "environmental",
+      "emergency_response",
+      "oil",
+      "gas"
+    ],
+    "keywords_matched": [
+      "Sumerian",
+      "suspension order",
+      "OWA",
+      "security deposit",
+      "Environmental Protection Order",
+      "closure spend quota"
+    ],
+    "score": 92,
+    "tier": 3,
+    "vn_commentary": "Textbook enforcement escalation to study. Four separate orders stacked in seven months (April, July, August, September) culminating in an OWA takeover authorization \u2014 this is what regulatory noncompliance looks like at its endpoint. Three things worth noting: (1) closure spend quota security-deposit failure was the proximate trigger to escalate; (2) AER didn't wait for a bankruptcy to designate \u2014 the suspension order moves the assets into OWA care operationally, with cost recovery against Sumerian; (3) the stacked order sequence (reasonable care \u2192 releases \u2192 security deposit) is the compliance playbook in reverse. For junior operators under LLR pressure, this is the warning: catching up on security deposits is the first thing to protect.",
+    "is_update": false,
+    "hash": "515957489110fdf0",
+    "added_at": "2026-11-20T19:52:47Z",
+    "approved": true
+  },
+  {
+    "title": "LNG Canada Phase 2 \u2014 FID announced, Kitimat doubles to 28 mtpa ($32B)",
+    "url": "https://www.bnnbloomberg.ca/business/company-news/2026/09/29/lng-canada-to-go-ahead-with-phase-2-expansion-project-in-kitimat-bc/",
+    "source": "BNN Bloomberg / LNG Canada",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-09-29",
+    "excerpt": "LNG Canada took FID on Phase 2 at Kitimat on Sep 29, 2026 \u2014 $32B private-sector investment doubling terminal output to 28 million tonnes/year. Joint venture: Shell, PetroChina, Petronas, Mitsubishi Corp, KOGAS. LNG Canada leads construction. TC Energy will nearly double Coastal GasLink's 670km pipeline capacity by adding compressor stations. Federal referral to FID in 12 months. Phase 1 has exceeded permitted flaring limits due to equipment problems.",
+    "categories": [
+      "lng",
+      "gas",
+      "pipeline",
+      "regulatory"
+    ],
+    "keywords_matched": [
+      "LNG Canada",
+      "Phase 2",
+      "Kitimat",
+      "Coastal GasLink",
+      "FID",
+      "Shell"
+    ],
+    "score": 98,
+    "tier": 2,
+    "vn_commentary": "The biggest BC gas infrastructure decision of the decade. Phase 2 doubles the pull on WCSB gas supply \u2014 Montney and Deep Basin producers are the net beneficiaries, and the Coastal GasLink capacity expansion is the enabling piece. If you're a BC upstream operator, review your firm transportation contracts against the expanded CGL capacity. The Phase 1 flaring overruns are a compliance warning worth tracking \u2014 expect BCER scrutiny on Phase 2 flare-stack sizing and permitted limits.",
+    "is_update": false,
+    "hash": "a9f8b624113fe6e0",
+    "added_at": "2026-11-23T17:26:39Z",
+    "approved": true
+  },
+  {
+    "title": "Ksi Lisims LNG \u2014 SEFE (German government) signs 1 mtpa, 20-year offtake",
+    "url": "https://www.bnnbloomberg.ca/business/economics/2026/05/27/german-utility-to-buy-one-million-tonnes-of-lng-per-year-from-ksi-lisims-project/",
+    "source": "BNN Bloomberg / Ksi Lisims LNG",
+    "jurisdiction": "British Columbia",
+    "published_at": "2026-05-27",
+    "excerpt": "Securing Energy for Europe (SEFE), German government-owned, signed long-term offtake for 1 mtpa from Ksi Lisims LNG, deliveries from early 2030s for up to 20 years. Ksi Lisims is a planned floating LNG plant on Pearse Island (northern BC near Alaska border) \u2014 up to 12 mtpa export capacity, $10B estimated, regulatory approval secured. Consortium: Western LNG (Houston, lead operator), Rockies LNG (Canadian producer group), Nisga'a Nation (host lands). FID not yet taken.",
+    "categories": [
+      "lng",
+      "gas",
+      "regulatory"
+    ],
+    "keywords_matched": [
+      "Ksi Lisims",
+      "SEFE",
+      "Western LNG",
+      "Rockies LNG",
+      "Nisga'a Nation",
+      "Pearse Island"
+    ],
+    "score": 90,
+    "tier": 2,
+    "vn_commentary": "Second major BC LNG project behind LNG Canada. The Rockies LNG consortium is Canadian producer-led, which changes the WCSB offtake dynamics if FID is reached \u2014 more producer-controlled export capacity means more direct access to Asian/European pricing. Nisga'a Nation ownership is also a precedent to watch for future First Nations-led LNG projects. If FID takes in 2027, construction creates a second corridor for WCSB gas by early 2030s.",
+    "is_update": false,
+    "hash": "d8eda5a6b20dafcd",
+    "added_at": "2026-11-23T17:26:39Z",
+    "approved": true
+  },
+  {
+    "title": "Federal government commits $200M to Woodfibre LNG over 3 years",
+    "url": "https://cheknews.ca/feds-investing-200m-in-b-c-s-woodfibre-lng-over-three-years-1361054/",
+    "source": "CHEK News / Government of Canada",
+    "jurisdiction": "Federal",
+    "published_at": "2026-10-15",
+    "excerpt": "Federal government committed $200M over three years to Woodfibre LNG, the Squamish BC floating LNG project. Woodfibre is one of three BC LNG projects under active development alongside LNG Canada (operational, Phase 2 FID taken) and Ksi Lisims (regulatory approved, pre-FID). Federal support signals coordinated BC LNG build-out policy.",
+    "categories": [
+      "lng",
+      "gas",
+      "regulatory"
+    ],
+    "keywords_matched": [
+      "Woodfibre LNG",
+      "Squamish",
+      "federal investment",
+      "BC LNG"
+    ],
+    "score": 82,
+    "tier": 2,
+    "vn_commentary": "The $200M federal commitment to Woodfibre signals BC LNG is now a national priority, not just a BC project. For upstream producers, three BC LNG projects moving simultaneously (LNG Canada P1 operational + P2 construction, Woodfibre, Ksi Lisims) is a step-change in WCSB gas offtake capacity. Build the 2030s gas demand curve into your reserves and infrastructure planning now.",
+    "is_update": false,
+    "hash": "3c2012d6a56a2186",
+    "added_at": "2026-11-23T17:26:39Z",
+    "approved": true
+  }
+]
