@@ -2789,5 +2789,35 @@
     "vn_commentary": "The 'last resort' framing matters. After LNG Canada Phase 2 FID committed WCSB gas to 28 mtpa at Kitimat, takeaway planning is the rate-limiting step for Montney and Deep Basin growth. For junior and intermediate operators this is structurally bullish \u2014 provincial backstop power raises the ceiling on what gets built rather than displacing private investment. The credible threat of intervention changes private sector decision math: TC Energy and other builders either partner or move faster. Compliance implication: any pipeline the province advances would still go through full AER permitting, Crown consultation, and Indigenous engagement \u2014 operators should expect the same regulatory bar, just with a different proponent if it comes to that.",
     "added_at": "2026-11-24T17:53:41Z",
     "approved": true
+  },
+  {
+    "hash": "f730d77b5fee9ca1",
+    "title": "Alberta gas flaring set to rise 10% in 2026 \u2014 province, Ottawa ease climate measures",
+    "url": "https://www.theglobeandmail.com/business/article-alberta-gas-flaring-set-to-rise-as-governments-ease-climate-measures/",
+    "source": "Globe and Mail",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-11-24",
+    "excerpt": "Alberta flaring is on pace to rise 10% in 2026 after dropping 15% in 2025. Operators flared 644 million cubic metres Jan-Sep, on track to exceed the prior 670 million m\u00b3 annual cap (which the AER eliminated in June 2025). Federal methane regulations (SOR/2025-280) take effect in 2028 and restrict flaring to health/safety or where no alternative exists \u2014 operators would need an engineering study to flare otherwise. Canada-Alberta equivalency agreement is still being negotiated.",
+    "categories": [
+      "environmental",
+      "carbon_climate",
+      "regulatory",
+      "gas",
+      "oil"
+    ],
+    "keywords_matched": [
+      "flaring",
+      "methane",
+      "Directive 060",
+      "SOR/2025-280",
+      "equivalency agreement",
+      "annual flaring cap"
+    ],
+    "score": 90,
+    "tier": 2,
+    "is_update": false,
+    "vn_commentary": "Watch this one closely. The province eliminated its flaring cap in June 2025, but the federal methane regulations landing in 2028 will tighten the screen again \u2014 restricting flaring to health/safety or where no alternative exists, with a documented engineering study required otherwise. For junior and intermediate operators, two practical implications: start tracking 'alternatives considered' documentation now, because once SOR/2025-280 is in force it's the record you'll be asked for; and watch the equivalency agreement negotiation closely \u2014 if Alberta's framework doesn't land as equivalent, the federal rules apply directly and the documentation gap will be a compliance exposure. Alberta has exceeded the prior annual cap in 2023, 2024, and now 2026 \u2014 that trend is the context federal regulators will use when deciding whether equivalency is granted.",
+    "added_at": "2026-11-24T18:39:32Z",
+    "approved": true
   }
 ]
