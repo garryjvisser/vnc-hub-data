@@ -2760,5 +2760,34 @@
     "added_at": "2026-11-24T17:32:02Z",
     "approved": true,
     "vn_commentary": "The 130 enforcement orders are the headline but the 5,474 audits are where most operators actually encounter the AER. For a junior or intermediate licensee, the math is a 1 in 1.6 chance of being inspected and a 1 in 2.6 chance of being audited in a given year \u2014 not if, but when. Three readiness questions worth asking your team today: can records be pulled in under 24 hours, does the field supervisor know what D077/D019/D056 inspections look like, and does an audit response plan exist on paper rather than in someone's head. The AER is tightening the enforcement screen without shrinking the audit volume, which means the operational risk is in audits even when the headlines are about orders."
+  },
+  {
+    "hash": "c93a01ab4b9c7854",
+    "title": "Alberta 'Last Resort' Bill \u2014 province could step in on gas pipelines if private sector falls behind",
+    "url": "https://www.alberta.ca/news-last-resort-gas-pipeline-bill",
+    "source": "Government of Alberta",
+    "jurisdiction": "Alberta",
+    "published_at": "2026-11-24",
+    "excerpt": "Alberta has introduced legislation enabling the province to take a direct role in advancing new natural gas pipelines as a 'last resort' if the private sector fails to build takeaway capacity in time. The bill arrives after LNG Canada's September 29, 2026 Phase 2 FID, which commits WCSB producers to roughly doubling Kitimat gas output. Industry observers frame the move as a potential confrontation with TC Energy, operator of Coastal GasLink and the dominant Alberta midstream player.",
+    "categories": [
+      "regulatory",
+      "pipeline",
+      "gas",
+      "lng"
+    ],
+    "keywords_matched": [
+      "Last Resort Bill",
+      "Alberta pipelines",
+      "TC Energy",
+      "Coastal GasLink",
+      "LNG Canada",
+      "takeaway capacity"
+    ],
+    "score": 92,
+    "tier": 1,
+    "is_update": false,
+    "vn_commentary": "The 'last resort' framing matters. After LNG Canada Phase 2 FID committed WCSB gas to 28 mtpa at Kitimat, takeaway planning is the rate-limiting step for Montney and Deep Basin growth. For junior and intermediate operators this is structurally bullish \u2014 provincial backstop power raises the ceiling on what gets built rather than displacing private investment. The credible threat of intervention changes private sector decision math: TC Energy and other builders either partner or move faster. Compliance implication: any pipeline the province advances would still go through full AER permitting, Crown consultation, and Indigenous engagement \u2014 operators should expect the same regulatory bar, just with a different proponent if it comes to that.",
+    "added_at": "2026-11-24T17:53:41Z",
+    "approved": true
   }
 ]
