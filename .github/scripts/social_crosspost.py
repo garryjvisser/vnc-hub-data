@@ -143,11 +143,36 @@ def format_facebook_post(story: dict) -> str:
     return body
 
 
+def resolve_fb_page_id(token: str) -> str | None:
+    """If FB_PAGE_ID isn't set, derive it from the token by calling /me."""
+    try:
+        resp = requests.get(
+            "https://graph.facebook.com/v27.0/me",
+            params={"fields": "id,name", "access_token": token},
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            data = resp.json()
+            page_id = data.get("id")
+            page_name = data.get("name", "")
+            log(f"Resolved Page ID {page_id} ({page_name}) from token.")
+            return page_id
+        log(f"Could not resolve Page ID: HTTP {resp.status_code} — {resp.text[:300]}")
+    except Exception as e:
+        log(f"Page ID resolve error: {e}")
+    return None
+
+
 def post_to_facebook(story: dict) -> str | None:
-    fb_page_id = os.environ.get("FB_PAGE_ID", "").strip()
     fb_page_token = os.environ.get("FB_PAGE_TOKEN", "").strip()
-    if not fb_page_id or not fb_page_token:
-        log("FB_PAGE_ID or FB_PAGE_TOKEN missing; skipping Facebook.")
+    if not fb_page_token:
+        log("FB_PAGE_TOKEN missing; skipping Facebook.")
+        return None
+    fb_page_id = os.environ.get("FB_PAGE_ID", "").strip()
+    if not fb_page_id:
+        fb_page_id = resolve_fb_page_id(fb_page_token)
+    if not fb_page_id:
+        log("Could not determine Page ID; skipping Facebook.")
         return None
 
     body = format_facebook_post(story)
