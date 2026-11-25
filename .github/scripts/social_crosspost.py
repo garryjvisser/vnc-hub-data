@@ -165,42 +165,74 @@ def format_facebook_post(story: dict) -> str:
     return body
 
 
-def resolve_fb_page_id(token: str) -> str | None:
-    """If FB_PAGE_ID isn't set, derive it from the token by calling /me."""
+def resolve_page_token(raw_token: str, page_hint: str = "vantagenorth") -> tuple[str | None, str | None, str | None]:
+    """Return (page_token, page_id, page_name).
+
+    Handles both cases:
+    - raw_token is already a Page Access Token → verify + return it
+    - raw_token is a User Access Token with page permissions → fetch the target
+      Page's own token via /me/accounts and return that instead
+
+    page_hint matches a substring in the page name (case-insensitive).
+    """
+    # First try /me/accounts — if populated, raw_token is a user token
     try:
         resp = requests.get(
-            "https://graph.facebook.com/v27.0/me",
-            params={"fields": "id,name", "access_token": token},
+            "https://graph.facebook.com/v27.0/me/accounts",
+            params={"access_token": raw_token, "fields": "id,name,access_token,category"},
             timeout=15,
         )
         if resp.status_code == 200:
-            data = resp.json()
-            page_id = data.get("id")
-            page_name = data.get("name", "")
-            log(f"Resolved Page ID {page_id} ({page_name}) from token.")
-            return page_id
-        log(f"Could not resolve Page ID: HTTP {resp.status_code} — {resp.text[:300]}")
+            pages = resp.json().get("data", [])
+            if pages:
+                log(f"Token is a USER token — found {len(pages)} managed page(s):")
+                for p in pages:
+                    log(f"  - {p.get('name')} (id {p.get('id')})")
+                # Prefer the page matching the hint
+                target = next(
+                    (p for p in pages if page_hint.lower() in (p.get("name") or "").lower()),
+                    pages[0],
+                )
+                log(f"Using page: {target.get('name')} (id {target.get('id')})")
+                return target.get("access_token"), target.get("id"), target.get("name")
     except Exception as e:
-        log(f"Page ID resolve error: {e}")
-    return None
+        log(f"/me/accounts call failed: {e}")
+
+    # Fall back: assume it's already a page token
+    try:
+        resp = requests.get(
+            "https://graph.facebook.com/v27.0/me",
+            params={"fields": "id,name,category", "access_token": raw_token},
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            d = resp.json()
+            if "category" in d:
+                log(f"Token is a PAGE token for {d.get('name')} (id {d.get('id')}).")
+                return raw_token, d.get("id"), d.get("name")
+            log(f"Token resolves to USER profile {d.get('name')} with no managed pages — can't post.")
+    except Exception as e:
+        log(f"/me resolve failed: {e}")
+
+    return None, None, None
 
 
 def post_to_facebook(story: dict) -> str | None:
-    fb_page_token = os.environ.get("FB_PAGE_TOKEN", "").strip()
-    if not fb_page_token:
+    raw_token = os.environ.get("FB_PAGE_TOKEN", "").strip()
+    if not raw_token:
         log("FB_PAGE_TOKEN missing; skipping Facebook.")
         return None
-    fb_page_id = os.environ.get("FB_PAGE_ID", "").strip()
-    if not fb_page_id:
-        fb_page_id = resolve_fb_page_id(fb_page_token)
-    if not fb_page_id:
-        log("Could not determine Page ID; skipping Facebook.")
+
+    page_hint = os.environ.get("FB_PAGE_HINT", "vantagenorth")
+    fb_page_token, fb_page_id, fb_page_name = resolve_page_token(raw_token, page_hint)
+    if not fb_page_token or not fb_page_id:
+        log("Could not resolve a Page access token. Skipping Facebook.")
         return None
 
     body = format_facebook_post(story)
     story_url = story.get("url", "")
 
-    log(f"Posting to Facebook page {fb_page_id} ({len(body)} chars)")
+    log(f"Posting to Facebook page {fb_page_id} ({fb_page_name}) — {len(body)} chars")
     resp = requests.post(
         f"https://graph.facebook.com/v27.0/{fb_page_id}/feed",
         data={
