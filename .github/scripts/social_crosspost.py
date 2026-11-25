@@ -52,10 +52,32 @@ def get_current_stories_json() -> list[dict]:
 
 
 def pick_crosspost_story() -> dict | None:
-    """Pick the best newly-added, approved story for cross-posting."""
+    """Pick the best story for cross-posting.
+
+    On a push event: look at stories added in this commit vs its parent.
+    On a manual workflow_dispatch: fall back to the most recent approved story,
+    so tests always have something to post.
+    """
+    current = get_current_stories_json()
+    event_name = os.environ.get("GITHUB_EVENT_NAME", "").strip()
+
+    if event_name == "workflow_dispatch":
+        # Manual run — pick the most recently added approved story regardless of diff
+        approved = [s for s in current if s.get("approved", False) and s.get("url")]
+        approved.sort(
+            key=lambda s: (s.get("added_at", ""), s.get("published_at", "")),
+            reverse=True,
+        )
+        if not approved:
+            log("No approved stories at all; nothing to post.")
+            return None
+        top = approved[0]
+        log(f"Manual run — picked most recent approved: [{top.get('tier','?')}|{top.get('score','?')}] {top.get('title','')[:80]}")
+        return top
+
+    # Normal (push) path — only post stories newly added in this commit
     previous = get_previous_stories_json()
     prev_urls = {s.get("url") for s in previous if s.get("url")}
-    current = get_current_stories_json()
     new_stories = [
         s for s in current
         if s.get("url") and s["url"] not in prev_urls and s.get("approved", False)
