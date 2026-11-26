@@ -6,12 +6,8 @@
   publish = "."
   # No build command — all generation happens in GitHub Actions upstream
 
-# Pretty URLs: /stories/foo instead of /stories/foo.html
-[[redirects]]
-  from = "/stories/:slug.html"
-  to = "/stories/:slug"
-  status = 301
-  force = true
+# Netlify strips .html automatically on its own, no redirect rule needed —
+# a forced redirect here created a loop against the default pretty-URL behavior.
 
 # stories.json: short cache (data file)
 [[headers]]
