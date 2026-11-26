@@ -195,8 +195,12 @@ def resolve_page_token(raw_token: str, page_hint: str = "vantagenorth") -> tuple
                 )
                 log(f"Using page: {target.get('name')} (id {target.get('id')})")
                 return target.get("access_token"), target.get("id"), target.get("name")
+            else:
+                log(f"/me/accounts returned empty page list (data=[]). Raw response: {resp.text[:400]}")
+        else:
+            log(f"/me/accounts HTTP {resp.status_code}: {resp.text[:400]}")
     except Exception as e:
-        log(f"/me/accounts call failed: {e}")
+        log(f"/me/accounts call exception: {e}")
 
     # Fall back: assume it's already a page token
     try:
@@ -211,8 +215,10 @@ def resolve_page_token(raw_token: str, page_hint: str = "vantagenorth") -> tuple
                 log(f"Token is a PAGE token for {d.get('name')} (id {d.get('id')}).")
                 return raw_token, d.get("id"), d.get("name")
             log(f"Token resolves to USER profile {d.get('name')} with no managed pages — can't post.")
+        else:
+            log(f"/me HTTP {resp.status_code}: {resp.text[:400]}")
     except Exception as e:
-        log(f"/me resolve failed: {e}")
+        log(f"/me resolve exception: {e}")
 
     return None, None, None
 
@@ -283,6 +289,7 @@ def post_to_x(story: dict) -> str | None:
 
     text = format_x_post(story)
     log(f"Posting to X ({len(text)} chars)")
+    log(f"X credential fingerprints — api_key[...{api_key[-4:]}] access_token[...{access_token[-4:]}]")
     auth = OAuth1(api_key, api_secret, access_token, access_secret)
     resp = requests.post(
         "https://api.twitter.com/2/tweets",
@@ -292,6 +299,16 @@ def post_to_x(story: dict) -> str | None:
     )
     if resp.status_code not in (200, 201):
         log(f"X post FAILED: HTTP {resp.status_code} — {resp.text[:500]}")
+        # Extra diagnostic: verify user context works at all with these credentials
+        try:
+            verify = requests.get(
+                "https://api.twitter.com/2/users/me",
+                auth=auth,
+                timeout=15,
+            )
+            log(f"X /users/me verify: HTTP {verify.status_code} — {verify.text[:300]}")
+        except Exception as e:
+            log(f"X /users/me verify exception: {e}")
         return None
     data = resp.json()
     post_id = data.get("data", {}).get("id", "unknown")
