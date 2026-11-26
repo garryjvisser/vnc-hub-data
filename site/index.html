@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Compliance Hub — VantageNorth Compliance</title>
+<meta name="description" content="Curated regulatory, environmental, safety, and pipeline compliance updates for the energy industry across Alberta, BC, and Saskatchewan. Filtered by jurisdiction and category. From VantageNorth Compliance.">
+<meta property="og:title" content="The Compliance Hub — VantageNorth Compliance">
+<meta property="og:description" content="Curated regulatory, environmental, safety, and pipeline compliance updates for the energy industry across Alberta, BC, and Saskatchewan.">
+<meta property="og:url" content="https://hub.vantagenorth.ca/">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://hub.vantagenorth.ca/">
+<link rel="icon" type="image/png" href="favicon.png?v=hub2026">
+<link rel="shortcut icon" type="image/png" href="favicon.png?v=hub2026">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=hub2026">
+<link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png?v=hub2026">
+<link rel="icon" type="image/png" sizes="512x512" href="favicon-512.png?v=hub2026">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=hub2026">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --navy: #122a44;
+  --navy-deep: #0b1f36;
+  --accent: #4a9b5e;
+  --accent-light: #6cb47e;
+  --accent-deep: #3a7d4a;
+  --cream: #f7f6f1;
+  --white: #ffffff;
+  --text: #1a2638;
+  --text-muted: #556479;
+  --border: rgba(74,155,94,0.18);
+  --shadow-sm: 0 2px 8px rgba(18,42,68,0.06);
+  --shadow-md: 0 8px 30px rgba(18,42,68,0.1);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--cream);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ─── HEADER ─── */
+header.site-header {
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.95);
+}
+.header-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: var(--navy);
+}
+.brand-mark {
+  height: 68px;
+  width: auto;
+  flex-shrink: 0;
+  display: block;
+}
+.brand-text { line-height: 1.1; border-left: 2px solid var(--border); margin-left: 0.3rem; padding: 0.3rem 0 0.3rem 0.95rem; }
+.brand-text .bot { font-size: 0.95rem; color: var(--accent-deep); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+.header-actions { display: flex; gap: 0.5rem; }
+.header-actions a {
+  color: var(--navy);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.header-actions a:hover { background: rgba(74,155,94,0.08); color: var(--accent-deep); }
+.header-actions a.cta {
+  background: var(--accent);
+  color: var(--white);
+}
+.header-actions a.cta:hover { background: var(--accent-deep); color: var(--white); }
+
+/* ─── HERO ─── */
+.hero {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 100%);
+  color: var(--white);
+  padding: 4rem 1.5rem 3rem;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(74,155,94,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(74,155,94,0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
+.hero-inner { max-width: 1100px; margin: 0 auto; position: relative; }
+.hero-eyebrow {
+  display: inline-block;
+  color: var(--accent-light);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.9rem;
+}
+.hero-eyebrow::before { content: '— '; }
+.hero h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  max-width: 850px;
+}
+.hero h1 em { color: var(--accent-light); font-style: normal; }
+.hero p {
+  font-size: 1.05rem;
+  max-width: 700px;
+  color: rgba(255,255,255,0.78);
+  margin-bottom: 2rem;
+}
+
+/* Hub stats row */
+.hub-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 2.5rem;
+  margin: 0 0 1.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(74,155,94,0.2);
+}
+.hub-stats .stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.hub-stats .stat-num {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent-light);
+  line-height: 1;
+}
+.hub-stats .stat-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.65);
+  margin-top: 0.3rem;
+}
+
+/* Search */
+.search-wrap {
+  max-width: 600px;
+  position: relative;
+}
+#search {
+  width: 100%;
+  padding: 0.9rem 1.2rem 0.9rem 3rem;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+  color: var(--white);
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s, background 0.2s;
+}
+#search::placeholder { color: rgba(255,255,255,0.5); }
+#search:focus {
+  border-color: var(--accent);
+  background: rgba(255,255,255,0.12);
+}
+.search-icon {
+  position: absolute;
+  left: 1rem; top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+/* ─── FILTERS ─── */
+.filters {
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  padding: 1.25rem 0;
+  position: sticky;
+  top: 69px;
+  z-index: 90;
+}
+.filters-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.6rem;
+}
+.filter-row:last-child { margin-bottom: 0; }
+.filter-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  min-width: 90px;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 0.4rem; flex: 1; }
+.chip {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.4rem 0.85rem;
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+.chip:hover {
+  border-color: var(--accent);
+  background: rgba(74,155,94,0.06);
+}
+.chip.active {
+  background: var(--navy);
+  color: var(--white);
+  border-color: var(--navy);
+  font-weight: 600;
+}
+.chip .chip-count {
+  background: rgba(255,255,255,0.15);
+  padding: 0 0.4rem;
+  border-radius: 10px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+.chip:not(.active) .chip-count {
+  background: rgba(74,155,94,0.12);
+  color: var(--accent-deep);
+}
+
+/* ─── STORY GRID ─── */
+main { max-width: 1300px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+.results-info {
+  margin-bottom: 1.5rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 0.5rem;
+}
+.results-info strong { color: var(--navy); font-weight: 700; }
+.results-info a {
+  color: var(--accent-deep);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.results-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.recency-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.9rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.recency-pill:hover {
+  border-color: var(--accent);
+  background: rgba(74,155,94,0.06);
+}
+.recency-pill[aria-pressed="true"] {
+  background: var(--accent);
+  color: var(--white);
+  border-color: var(--accent);
+}
+.recency-pill .dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--accent);
+  display: inline-block;
+}
+.recency-pill[aria-pressed="true"] .dot {
+  background: var(--white);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+/* Updates-only pill: same shape, amber accent */
+.updates-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.9rem;
+  background: var(--white);
+  border: 1px solid rgba(197,138,46,0.25);
+  border-radius: 20px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.updates-pill:hover {
+  border-color: #c58a2e;
+  background: rgba(197,138,46,0.06);
+}
+.updates-pill[aria-pressed="true"] {
+  background: #c58a2e;
+  color: var(--white);
+  border-color: #c58a2e;
+}
+.updates-pill .dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: #c58a2e;
+  display: inline-block;
+}
+.updates-pill[aria-pressed="true"] .dot {
+  background: var(--white);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex; flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--accent);
+}
+.card-meta {
+  display: flex; align-items: center; gap: 0.5rem;
+  margin-bottom: 0.9rem;
+  flex-wrap: wrap;
+}
+.pill {
+  display: inline-flex; align-items: center; gap: 0.25rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.pill.jur {
+  background: var(--accent);
+  color: var(--white);
+  text-transform: uppercase;
+}
+.pill.jur.federal { background: var(--navy); }
+.pill.tier {
+  background: rgba(74,155,94,0.12);
+  color: var(--accent-deep);
+  text-transform: uppercase;
+}
+.pill.update {
+  background: #c58a2e;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 800;
+  box-shadow: 0 0 0 0 rgba(197,138,46,0.5);
+  animation: update-glow 2.5s ease-in-out infinite;
+}
+@keyframes update-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(197,138,46,0.5); }
+  50% { box-shadow: 0 0 0 4px rgba(197,138,46,0); }
+}
+.card--update {
+  border-left: 3px solid #c58a2e;
+}
+.card-date {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  margin-left: auto;
+}
+.card h3 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.6rem;
+  color: var(--navy);
+}
+.card-source {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 500;
+  margin-bottom: 0.9rem;
+}
+.card-source::before { content: '↳ '; color: var(--accent); }
+.card-excerpt {
+  color: var(--text);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+.vn-commentary {
+  background: rgba(74,155,94,0.08);
+  border-left: 3px solid var(--accent);
+  padding: 0.75rem 0.9rem;
+  margin-bottom: 1.1rem;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--text);
+  border-radius: 0 6px 6px 0;
+}
+.vn-commentary strong {
+  display: block;
+  font-size: 0.72rem;
+  color: var(--accent-deep);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+}
+.card-tags {
+  display: flex; flex-wrap: wrap; gap: 0.3rem;
+  margin-bottom: 1rem;
+}
+.tag {
+  font-size: 0.68rem;
+  padding: 0.2rem 0.5rem;
+  background: var(--cream);
+  color: var(--text-muted);
+  border-radius: 3px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.card-link {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  color: var(--accent-deep);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 700;
+  margin-top: auto;
+}
+.card-link:hover { color: var(--accent); }
+.card-link::after { content: ' →'; transition: transform 0.15s; display: inline-block; }
+.card-link:hover::after { transform: translateX(3px); }
+
+.empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem 1rem;
+  color: var(--text-muted);
+}
+.empty-state h3 { font-size: 1.3rem; color: var(--navy); margin-bottom: 0.5rem; }
+
+/* ─── FOOTER ─── */
+footer {
+  background: var(--navy-deep);
+  color: rgba(255,255,255,0.7);
+  padding: 2.5rem 1.5rem 1.5rem;
+}
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; gap: 1rem;
+}
+.footer-inner a {
+  color: var(--accent-light);
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer-inner a:hover { color: var(--white); }
+
+@media (max-width: 640px) {
+  .hero { padding: 2.5rem 1.25rem 2rem; }
+  .filters { top: 61px; }
+  .filter-row { gap: 0.5rem; }
+  .filter-label { width: 100%; min-width: 0; }
+  .chips { gap: 0.3rem; }
+  .chip { font-size: 0.78rem; padding: 0.35rem 0.7rem; }
+  main { padding: 1.5rem 1rem 3rem; }
+  .story-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .card { padding: 1.2rem; }
+  .brand-mark { height: 52px; }
+  .brand-text .bot { font-size: 0.72rem; }
+  .header-actions a { padding: 0.4rem 0.7rem; font-size: 0.82rem; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="https://www.vantagenorth.ca/" class="brand" aria-label="VantageNorth Compliance">
+      <img class="brand-mark" src="vantagenorth-logo.png" alt="VantageNorth Compliance">
+      <span class="brand-text">
+        <span class="top" style="display:none">VantageNorth Compliance</span>
+        <span class="bot">The Compliance Hub</span>
+      </span>
+    </a>
+    <nav class="header-actions">
+      <a href="https://www.vantagenorth.ca/">Main Site</a>
+      <a href="https://www.vantagenorth.ca/#cta" class="cta">Get in Touch</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <span class="hero-eyebrow">The Compliance Hub</span>
+    <h1>The compliance news that matters. <em>Curated weekly.</em></h1>
+    <p>Regulatory bulletins, enforcement actions, policy changes, and industry news serving the energy industry across Alberta, British Columbia, and Saskatchewan — filtered, categorized, and annotated with VantageNorth perspective.</p>
+    <div class="hub-stats">
+      <div class="stat"><span class="stat-num" id="stat-total">—</span><span class="stat-label">curated stories</span></div>
+      <div class="stat"><span class="stat-num" id="stat-ab">—</span><span class="stat-label">Alberta</span></div>
+      <div class="stat"><span class="stat-num" id="stat-bc">—</span><span class="stat-label">British Columbia</span></div>
+      <div class="stat"><span class="stat-num" id="stat-sk">—</span><span class="stat-label">Saskatchewan</span></div>
+      <div class="stat"><span class="stat-num" id="stat-fed">—</span><span class="stat-label">Federal</span></div>
+    </div>
+    <div class="search-wrap">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="search" placeholder="Search by keyword — e.g. orphan well, LLR, methane, pipeline…" autocomplete="off">
+    </div>
+  </div>
+</section>
+
+<section class="filters">
+  <div class="filters-inner">
+    <div class="filter-row">
+      <span class="filter-label">Jurisdiction</span>
+      <div class="chips" id="jurisdiction-chips">
+        <button class="chip active" data-filter="jurisdiction" data-value="all">All</button>
+      </div>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">Category</span>
+      <div class="chips" id="category-chips">
+        <button class="chip active" data-filter="category" data-value="all">All</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+  <div class="results-info">
+    <div><strong id="results-count">0</strong> stories matching your filters</div>
+    <div class="results-controls">
+      <button id="recency-toggle" class="recency-pill" aria-pressed="false">
+        <span class="dot"></span> New this week
+      </button>
+      <button id="updates-toggle" class="updates-pill" aria-pressed="false" title="Show only regulatory updates and amendments">
+        <span class="dot"></span> Updates only
+      </button>
+      <a href="#" id="clear-filters">Clear filters</a>
+    </div>
+  </div>
+  <div class="story-grid" id="story-grid">
+    <div class="empty-state"><h3>Loading stories…</h3></div>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      © 2026 <a href="https://www.vantagenorth.ca/">VantageNorth Compliance</a> · Calgary, Alberta
+    </div>
+    <div>
+      <a href="https://www.linkedin.com/company/vantagenorth-compliance/" target="_blank" rel="noopener">LinkedIn</a>
+      &nbsp;·&nbsp;
+      <a href="https://www.vantagenorth.ca/#cta">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/hub.js?v=20"></script>
+</body>
+</html>

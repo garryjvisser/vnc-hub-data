@@ -1,0 +1,56 @@
+name: Hub Build
+
+# Fires when stories.json changes on main (daily scrub push or manual add)
+# OR when any site/ source file changes (template tweaks).
+# Regenerates per-story HTML pages, sitemap, and slug map, then commits the
+# results. Netlify auto-deploys on the resulting push.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "stories.json"
+      - "site/js/**"
+      - "site/index.html"
+      - "site/netlify.toml"
+      - ".github/scripts/build_hub.py"
+      - ".github/workflows/hub-build.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: hub-build
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Avoid infinite loops: skip when the commit was made by this workflow
+    if: github.actor != 'VNC Hub Build'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run build
+        run: python .github/scripts/build_hub.py
+
+      - name: Commit generated pages if changed
+        run: |
+          git config user.name "VNC Hub Build"
+          git config user.email "hub-build@vantagenorth.ca"
+          git add site/stories/ site/sitemap.xml site/slug-map.json site/stories.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Hub build: regenerate story pages [skip ci]"
+            git push
+          fi
