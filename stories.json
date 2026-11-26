@@ -2907,5 +2907,62 @@
     "vn_commentary": "This is the annual report card operators need to read carefully. Three things to pull from it: (1) the closure quota is up another $50M to $750M in 2025 and will keep climbing \u2014 build that trajectory into your 2027-29 AFEs; (2) 80% quota compliance is the headline, but the 20% who missed are now carrying regulatory risk that will show up as capability assessment pressure next year; (3) 82% of liability sitting with low-distress licensees is good news for the system but means the AER's enforcement screen will tighten on the 5% high-distress tail \u2014 if your LCA is anywhere near that line, this is the environment where Sumerian-style escalations happen. The 6% drop in inactive wells is real progress but the inventory is still 77,932 wells. We're not done.",
     "added_at": "2026-11-25T18:10:16Z",
     "approved": true
+  },
+  {
+    "hash": "d0a301a1999cc549",
+    "title": "Saskatchewan introduces Protection of Economic Infrastructure Act \u2014 $200K/day corporate fines for interference with pipelines, Crown facilities, mines",
+    "url": "https://pipelineonline.ca/26001-2/",
+    "source": "Pipeline Online",
+    "jurisdiction": "Saskatchewan",
+    "published_at": "2026-11-25",
+    "excerpt": "The Saskatchewan Party government introduced the Protection of Economic Infrastructure Act on Nov. 25, expanding enforcement options against interference with critical infrastructure including Crown Corporation plants, pipelines, mines, railways, water works, highways, and health care facilities. Penalties are up to $25,000/day for individuals and $200,000/day for corporations, plus restitution orders, driver's licence suspensions, and arrest. The Justice Minister can also seek court orders to stop interference. The Act was signalled in the fall Speech from the Throne.",
+    "categories": [
+      "regulatory",
+      "emergency_response",
+      "pipeline"
+    ],
+    "keywords_matched": [
+      "Saskatchewan",
+      "infrastructure",
+      "enforcement",
+      "pipelines",
+      "penalties"
+    ],
+    "score": 72,
+    "tier": 2,
+    "is_update": false,
+    "added_at": "2026-11-26T13:48:49Z",
+    "approved": true,
+    "vn_commentary": "This one matters for anyone running pipelines, facilities or operations in Saskatchewan. The new Act gives the Minister of Justice a sharper enforcement toolbox \u2014 $200K per day on the corporate side, licence suspensions, arrests, court-ordered injunctions \u2014 aimed at interference with critical infrastructure. For operators, the practical implication is two-sided: (1) your assets are explicitly named as protected infrastructure, which strengthens your position when dealing with disruption, but (2) you'll want to make sure your own ERP, security contractors, and site access procedures align with how the Act defines interference, because enforcement cuts both ways. Watch for how 'interference' and 'critical infrastructure' get defined in regulations once the bill passes \u2014 that's where the compliance detail will land."
+  },
+  {
+    "hash": "7a6759f5d7173a79",
+    "title": "Saskatchewan Minister's Order MRO 196/26 \u2014 Prospera Energy faces staged licence suspension starting Nov 29, full shut-in by Jan 28, 2027",
+    "url": "https://pipelineonline.ca/energy-minister-orders-staged-shut-down-of-prospera-energy/",
+    "source": "Pipeline Online",
+    "jurisdiction": "Saskatchewan",
+    "published_at": "2026-11-12",
+    "excerpt": "Saskatchewan's Ministry of Energy and Resources issued Minister's Order MRO 196/26 (dated Oct 30, 2026) suspending Prospera Energy's licences in three stages: Nov 29, 2026 (Appendix A), Dec 29, 2026 (Appendix B), and Jan 28, 2027 (all remaining). The order requires Prospera to shut in operations plus associated flowlines and pipelines, and forfeits related disposition proceeds under Oil and Gas Conservation Act s.58. It cites OGCA ss.12 and 17.01 and Regulations s.76. Prospera says it reduced open inspection items from 146 (Oct 2024) to 58, and reported a pipeline release at Hearts Hill 08-28 in September 2026. Minister Beaudry says the wells' disposition (orphan or auction) will be decided within 30\u201390 days.",
+    "categories": [
+      "regulatory",
+      "llr_aro",
+      "environmental",
+      "safety"
+    ],
+    "keywords_matched": [
+      "Saskatchewan",
+      "Prospera",
+      "MRO 196/26",
+      "licence suspension",
+      "enforcement",
+      "orphan wells",
+      "pipeline release"
+    ],
+    "score": 92,
+    "tier": 1,
+    "is_update": false,
+    "added_at": "2026-11-26T13:48:49Z",
+    "approved": true,
+    "vn_commentary": "This is a named enforcement action on a Saskatchewan junior that's been on the Ministry's radar for a while, and the first-stage licence suspension activates this Saturday (Nov 29). A few things matter here for the broader operator community: (1) the Ministry is using OGCA s.58 forfeiture on disposition proceeds \u2014 that's a real teeth-showing against licensees with compliance arrears, (2) the staged timeline (Nov 29 / Dec 29 / Jan 28) gives Prospera a narrow runway to execute its MRO 98/26 cleanup schedule, and (3) the wells may head to the orphan stream, which lands on industry via the OWA levy if no auction buyer emerges. If you operate adjacent to Prospera leases (Hearts Hill area especially after the September pipeline release), expect increased Ministry site visits and tighten your own inspection follow-through. The operator-level lesson: open inspection items don't age well, and when regulators lose patience, the compliance 'cliff' arrives in weeks, not quarters."
   }
 ]
