@@ -188,6 +188,31 @@ function render() {
   grid.innerHTML = filtered.map(s => renderCard(s)).join('');
 }
 
+// Keep card commentary to a punchy hook — first sentence or two, hard cap ~140 chars.
+// Full commentary lives on the per-story page.
+function shortCommentary(text, maxLen = 140) {
+  if (!text) return '';
+  const clean = String(text).trim();
+  // Split on sentence terminators keeping the sentences
+  const sentences = clean.split(/(?<=[.!?])\s+/);
+  let hook = '';
+  for (const s of sentences) {
+    const candidate = hook ? hook + ' ' + s : s;
+    if (candidate.length > maxLen) {
+      if (!hook) {
+        // Single sentence exceeds the cap — hard truncate at word boundary
+        const cut = clean.substring(0, maxLen);
+        return cut.replace(/\s+\S*$/, '') + '…';
+      }
+      break;
+    }
+    hook = candidate;
+  }
+  // If we captured everything and it's short, return as-is (no ellipsis)
+  if (hook.length >= clean.length) return hook;
+  return hook + ' …';
+}
+
 function renderCard(s) {
   const jurPrimary = (JURISDICTIONS.find(j => (s.jurisdiction || '').includes(j)) || '');
   const abbr = JURISDICTION_ABBR[jurPrimary] || jurPrimary;
@@ -197,7 +222,7 @@ function renderCard(s) {
   const tags = (s.categories || []).slice(0, 4)
     .map(c => `<span class="tag">${CATEGORIES[c] || c}</span>`).join('');
   const commentary = s.vn_commentary
-    ? `<div class="vn-commentary"><strong>VantageNorth take</strong>${escapeHtml(s.vn_commentary)}</div>`
+    ? `<div class="vn-commentary"><strong>VantageNorth take</strong>${escapeHtml(shortCommentary(s.vn_commentary))}</div>`
     : '';
   const updateBadge = s.is_update ? `<span class="pill update">UPDATE</span>` : '';
   const updateCardClass = s.is_update ? ' card--update' : '';
@@ -205,7 +230,7 @@ function renderCard(s) {
   const slug = slugMap[s.url];
   const href = slug ? `/stories/${slug}` : s.url;
   const externalAttrs = slug ? '' : ' target="_blank" rel="noopener"';
-  const linkLabel = slug ? 'Read the VN take' : 'Read full article';
+  const linkLabel = slug ? 'Read the full article &amp; the full VN take' : 'Read full article';
   return `
     <article class="card${updateCardClass}">
       <div class="card-meta">
