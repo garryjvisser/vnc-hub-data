@@ -326,8 +326,12 @@ def main() -> int:
     if os.environ.get("DRY_RUN", "").lower() in ("1", "true", "yes"):
         log("DRY_RUN set; will not actually post.")
 
-    if already_posted_today():
-        log("Already posted in the last 20 hours; skipping.")
+    # The 20-hour dedup guard only matters for accidental manual re-triggers.
+    # Scheduled push events already use a per-commit diff to pick stories, so a
+    # true duplicate push would find 0 new stories and exit on its own.
+    event_name = os.environ.get("GITHUB_EVENT_NAME", "").strip()
+    if event_name == "workflow_dispatch" and already_posted_today():
+        log("Manual re-run guard: already posted in the last 20 hours; skipping.")
         return 0
 
     story = pick_crosspost_story()
